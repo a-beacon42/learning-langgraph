@@ -1,0 +1,936 @@
+{
+    "dataCatalog": {
+        "version": "1.0",
+        "lastUpdated": "2024-01-15T10:00:00Z",
+        "dataSources": [
+            {
+                "id": "ds-001",
+                "name": "Salesforce CRM",
+                "type": "CRM",
+                "vendor": "Salesforce",
+                "description": "Customer relationship management system for deal pipeline and investor relations",
+                "connectionType": "API",
+                "endpoints": {
+                    "base": "https://api.salesforce.com/v58.0",
+                    "auth": "https://login.salesforce.com/services/oauth2/token"
+                },
+                "datasets": [
+                    {
+                        "id": "ds-001-accounts",
+                        "name": "Accounts",
+                        "description": "Portfolio companies and investment targets",
+                        "recordCount": 1250,
+                        "fields": [
+                            {
+                                "name": "AccountId",
+                                "type": "string",
+                                "description": "Unique identifier for the account record",
+                                "isPrimaryKey": true,
+                                "isNullable": false
+                            },
+                            {
+                                "name": "Name",
+                                "type": "string",
+                                "description": "Company or organization name",
+                                "isPrimaryKey": false,
+                                "isNullable": false
+                            },
+                            {
+                                "name": "Industry",
+                                "type": "string",
+                                "description": "Primary industry sector or classification",
+                                "isPrimaryKey": false,
+                                "isNullable": true
+                            },
+                            {
+                                "name": "Revenue",
+                                "type": "decimal",
+                                "description": "Annual revenue in USD",
+                                "isPrimaryKey": false,
+                                "isNullable": true
+                            },
+                            {
+                                "name": "OwnerName",
+                                "type": "string",
+                                "description": "Name of the account owner/relationship manager",
+                                "isPrimaryKey": false,
+                                "isNullable": true
+                            },
+                            {
+                                "name": "Stage",
+                                "type": "string",
+                                "description": "Current relationship stage (Prospect, Portfolio, Exited)",
+                                "isPrimaryKey": false,
+                                "isNullable": true
+                            }
+                        ]
+                    },
+                    {
+                        "id": "ds-001-opportunities",
+                        "name": "Opportunities",
+                        "description": "Active deal pipeline and opportunities",
+                        "recordCount": 340,
+                        "fields": [
+                            {
+                                "name": "OpportunityId",
+                                "type": "string",
+                                "description": "Unique identifier for the opportunity record",
+                                "isPrimaryKey": true,
+                                "isNullable": false
+                            },
+                            {
+                                "name": "Name",
+                                "type": "string",
+                                "description": "Opportunity or deal name",
+                                "isPrimaryKey": false,
+                                "isNullable": false
+                            },
+                            {
+                                "name": "Amount",
+                                "type": "decimal",
+                                "description": "Expected deal amount in USD",
+                                "isPrimaryKey": false,
+                                "isNullable": true
+                            },
+                            {
+                                "name": "CloseDate",
+                                "type": "date",
+                                "description": "Expected or actual close date",
+                                "isPrimaryKey": false,
+                                "isNullable": true
+                            },
+                            {
+                                "name": "Stage",
+                                "type": "string",
+                                "description": "Current opportunity stage in the sales pipeline",
+                                "isPrimaryKey": false,
+                                "isNullable": true
+                            },
+                            {
+                                "name": "Probability",
+                                "type": "decimal",
+                                "description": "Probability of close as percentage (0-100)",
+                                "isPrimaryKey": false,
+                                "isNullable": true
+                            }
+                        ]
+                    },
+                    {
+                        "id": "ds-001-contacts",
+                        "name": "Contacts",
+                        "description": "Key contacts and relationships",
+                        "recordCount": 5600,
+                        "fields": [
+                            {
+                                "name": "ContactId",
+                                "type": "string",
+                                "description": "Unique identifier for the contact record",
+                                "isPrimaryKey": true,
+                                "isNullable": false
+                            },
+                            {
+                                "name": "FirstName",
+                                "type": "string",
+                                "description": "Contact's first name",
+                                "isPrimaryKey": false,
+                                "isNullable": true
+                            },
+                            {
+                                "name": "LastName",
+                                "type": "string",
+                                "description": "Contact's last name",
+                                "isPrimaryKey": false,
+                                "isNullable": false
+                            },
+                            {
+                                "name": "Email",
+                                "type": "string",
+                                "description": "Primary email address",
+                                "isPrimaryKey": false,
+                                "isNullable": true
+                            },
+                            {
+                                "name": "Title",
+                                "type": "string",
+                                "description": "Job title or position",
+                                "isPrimaryKey": false,
+                                "isNullable": true
+                            },
+                            {
+                                "name": "AccountId",
+                                "type": "string",
+                                "description": "Foreign key reference to Accounts table",
+                                "isPrimaryKey": false,
+                                "isNullable": true,
+                                "foreignKey": {
+                                    "referencedTable": "ds-001-accounts",
+                                    "referencedField": "AccountId"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "ds-002",
+                "name": "eFront",
+                "type": "Portfolio Management",
+                "vendor": "BlackRock (eFront)",
+                "description": "Alternative investment management and reporting platform",
+                "connectionType": "API",
+                "endpoints": {
+                    "base": "https://api.efront.com/v3",
+                    "auth": "https://auth.efront.com/oauth/token"
+                },
+                "datasets": [
+                    {
+                        "id": "ds-002-funds",
+                        "name": "Funds",
+                        "description": "Fund entities and performance data",
+                        "recordCount": 45,
+                        "fields": [
+                            {
+                                "name": "FundId",
+                                "type": "string",
+                                "description": "Unique identifier for the fund",
+                                "isPrimaryKey": true,
+                                "isNullable": false
+                            },
+                            {
+                                "name": "FundName",
+                                "type": "string",
+                                "description": "Official fund name",
+                                "isPrimaryKey": false,
+                                "isNullable": false
+                            },
+                            {
+                                "name": "VintageYear",
+                                "type": "integer",
+                                "description": "Year the fund was established",
+                                "isPrimaryKey": false,
+                                "isNullable": false
+                            },
+                            {
+                                "name": "CommittedCapital",
+                                "type": "decimal",
+                                "description": "Total committed capital in USD",
+                                "isPrimaryKey": false,
+                                "isNullable": true
+                            },
+                            {
+                                "name": "CalledCapital",
+                                "type": "decimal",
+                                "description": "Capital called/drawn from LPs in USD",
+                                "isPrimaryKey": false,
+                                "isNullable": true
+                            },
+                            {
+                                "name": "NAV",
+                                "type": "decimal",
+                                "description": "Net Asset Value in USD",
+                                "isPrimaryKey": false,
+                                "isNullable": true
+                            },
+                            {
+                                "name": "IRR",
+                                "type": "decimal",
+                                "description": "Internal Rate of Return as percentage",
+                                "isPrimaryKey": false,
+                                "isNullable": true
+                            },
+                            {
+                                "name": "MOIC",
+                                "type": "decimal",
+                                "description": "Multiple on Invested Capital",
+                                "isPrimaryKey": false,
+                                "isNullable": true
+                            }
+                        ]
+                    },
+                    {
+                        "id": "ds-002-portfolio-companies",
+                        "name": "Portfolio Companies",
+                        "description": "Portfolio company valuations and metrics",
+                        "recordCount": 180,
+                        "fields": [
+                            {
+                                "name": "CompanyId",
+                                "type": "string",
+                                "description": "Unique identifier for the portfolio company",
+                                "isPrimaryKey": true,
+                                "isNullable": false
+                            },
+                            {
+                                "name": "CompanyName",
+                                "type": "string",
+                                "description": "Portfolio company name",
+                                "isPrimaryKey": false,
+                                "isNullable": false
+                            },
+                            {
+                                "name": "InvestmentDate",
+                                "type": "date",
+                                "description": "Date of initial investment",
+                                "isPrimaryKey": false,
+                                "isNullable": true
+                            },
+                            {
+                                "name": "CostBasis",
+                                "type": "decimal",
+                                "description": "Original investment cost in USD",
+                                "isPrimaryKey": false,
+                                "isNullable": true
+                            },
+                            {
+                                "name": "FairValue",
+                                "type": "decimal",
+                                "description": "Current fair market value in USD",
+                                "isPrimaryKey": false,
+                                "isNullable": true
+                            },
+                            {
+                                "name": "Industry",
+                                "type": "string",
+                                "description": "Primary industry sector",
+                                "isPrimaryKey": false,
+                                "isNullable": true
+                            },
+                            {
+                                "name": "Geography",
+                                "type": "string",
+                                "description": "Geographic location or region",
+                                "isPrimaryKey": false,
+                                "isNullable": true
+                            }
+                        ]
+                    },
+                    {
+                        "id": "ds-002-transactions",
+                        "name": "Transactions",
+                        "description": "Capital calls, distributions, and investment transactions",
+                        "recordCount": 8900,
+                        "fields": [
+                            {
+                                "name": "TransactionId",
+                                "type": "string",
+                                "description": "Unique identifier for the transaction",
+                                "isPrimaryKey": true,
+                                "isNullable": false
+                            },
+                            {
+                                "name": "Date",
+                                "type": "date",
+                                "description": "Transaction date",
+                                "isPrimaryKey": false,
+                                "isNullable": false
+                            },
+                            {
+                                "name": "Type",
+                                "type": "string",
+                                "description": "Transaction type (Capital Call, Distribution, Investment, etc.)",
+                                "isPrimaryKey": false,
+                                "isNullable": false
+                            },
+                            {
+                                "name": "Amount",
+                                "type": "decimal",
+                                "description": "Transaction amount in USD",
+                                "isPrimaryKey": false,
+                                "isNullable": false
+                            },
+                            {
+                                "name": "FundId",
+                                "type": "string",
+                                "description": "Foreign key reference to Funds table",
+                                "isPrimaryKey": false,
+                                "isNullable": true,
+                                "foreignKey": {
+                                    "referencedTable": "ds-002-funds",
+                                    "referencedField": "FundId"
+                                }
+                            },
+                            {
+                                "name": "CompanyId",
+                                "type": "string",
+                                "description": "Foreign key reference to Portfolio Companies table",
+                                "isPrimaryKey": false,
+                                "isNullable": true,
+                                "foreignKey": {
+                                    "referencedTable": "ds-002-portfolio-companies",
+                                    "referencedField": "CompanyId"
+                                }
+                            },
+                            {
+                                "name": "Status",
+                                "type": "string",
+                                "description": "Transaction status (Pending, Completed, Failed)",
+                                "isPrimaryKey": false,
+                                "isNullable": true
+                            }
+                        ]
+                    },
+                    {
+                        "id": "ds-002-lps",
+                        "name": "Limited Partners",
+                        "description": "LP commitments and capital account details",
+                        "recordCount": 320,
+                        "fields": [
+                            {
+                                "name": "LPId",
+                                "type": "string",
+                                "description": "Unique identifier for the Limited Partner",
+                                "isPrimaryKey": true,
+                                "isNullable": false
+                            },
+                            {
+                                "name": "LPName",
+                                "type": "string",
+                                "description": "Limited Partner organization name",
+                                "isPrimaryKey": false,
+                                "isNullable": false
+                            },
+                            {
+                                "name": "Commitment",
+                                "type": "decimal",
+                                "description": "Total commitment amount in USD",
+                                "isPrimaryKey": false,
+                                "isNullable": true
+                            },
+                            {
+                                "name": "Contributed",
+                                "type": "decimal",
+                                "description": "Total contributed capital in USD",
+                                "isPrimaryKey": false,
+                                "isNullable": true
+                            },
+                            {
+                                "name": "Distributions",
+                                "type": "decimal",
+                                "description": "Total distributions received in USD",
+                                "isPrimaryKey": false,
+                                "isNullable": true
+                            },
+                            {
+                                "name": "NAV",
+                                "type": "decimal",
+                                "description": "Current Net Asset Value in USD",
+                                "isPrimaryKey": false,
+                                "isNullable": true
+                            },
+                            {
+                                "name": "ContactInfo",
+                                "type": "string",
+                                "description": "Primary contact information",
+                                "isPrimaryKey": false,
+                                "isNullable": true
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "ds-003",
+                "name": "Loopio",
+                "type": "RFP Management",
+                "vendor": "Loopio",
+                "description": "RFP and DDQ response management platform",
+                "connectionType": "API",
+                "endpoints": {
+                    "base": "https://api.loopio.com/v1",
+                    "auth": "https://api.loopio.com/oauth/token"
+                },
+                "datasets": [
+                    {
+                        "id": "ds-003-projects",
+                        "name": "Projects",
+                        "description": "RFP and DDQ projects",
+                        "recordCount": 156,
+                        "fields": [
+                            {
+                                "name": "ProjectId",
+                                "type": "string",
+                                "description": "Unique identifier for the RFP/DDQ project",
+                                "isPrimaryKey": true,
+                                "isNullable": false
+                            },
+                            {
+                                "name": "ProjectName",
+                                "type": "string",
+                                "description": "Project name or title",
+                                "isPrimaryKey": false,
+                                "isNullable": false
+                            },
+                            {
+                                "name": "Type",
+                                "type": "string",
+                                "description": "Project type (RFP, DDQ, RFI, etc.)",
+                                "isPrimaryKey": false,
+                                "isNullable": false
+                            },
+                            {
+                                "name": "Status",
+                                "type": "string",
+                                "description": "Current project status (In Progress, Completed, On Hold)",
+                                "isPrimaryKey": false,
+                                "isNullable": true
+                            },
+                            {
+                                "name": "DueDate",
+                                "type": "date",
+                                "description": "Project deadline or due date",
+                                "isPrimaryKey": false,
+                                "isNullable": true
+                            },
+                            {
+                                "name": "AssignedTo",
+                                "type": "string",
+                                "description": "Team member or group assigned to the project",
+                                "isPrimaryKey": false,
+                                "isNullable": true
+                            },
+                            {
+                                "name": "CompletionRate",
+                                "type": "decimal",
+                                "description": "Project completion percentage (0-100)",
+                                "isPrimaryKey": false,
+                                "isNullable": true
+                            }
+                        ]
+                    },
+                    {
+                        "id": "ds-003-library",
+                        "name": "Content Library",
+                        "description": "Approved responses and content repository",
+                        "recordCount": 4200,
+                        "fields": [
+                            {
+                                "name": "ContentId",
+                                "type": "string",
+                                "description": "Unique identifier for the content item",
+                                "isPrimaryKey": true,
+                                "isNullable": false
+                            },
+                            {
+                                "name": "Question",
+                                "type": "string",
+                                "description": "The question or prompt text",
+                                "isPrimaryKey": false,
+                                "isNullable": false
+                            },
+                            {
+                                "name": "Answer",
+                                "type": "text",
+                                "description": "The approved response content",
+                                "isPrimaryKey": false,
+                                "isNullable": false
+                            },
+                            {
+                                "name": "Category",
+                                "type": "string",
+                                "description": "Content category or topic area",
+                                "isPrimaryKey": false,
+                                "isNullable": true
+                            },
+                            {
+                                "name": "LastUpdated",
+                                "type": "datetime",
+                                "description": "Date and time of last content update",
+                                "isPrimaryKey": false,
+                                "isNullable": true
+                            },
+                            {
+                                "name": "Owner",
+                                "type": "string",
+                                "description": "Content owner or responsible team member",
+                                "isPrimaryKey": false,
+                                "isNullable": true
+                            },
+                            {
+                                "name": "Tags",
+                                "type": "string",
+                                "description": "Comma-separated tags for content classification",
+                                "isPrimaryKey": false,
+                                "isNullable": true
+                            }
+                        ]
+                    },
+                    {
+                        "id": "ds-003-ddq-responses",
+                        "name": "DDQ Responses",
+                        "description": "Due diligence questionnaire responses",
+                        "recordCount": 890,
+                        "fields": [
+                            {
+                                "name": "ResponseId",
+                                "type": "string",
+                                "description": "Unique identifier for the DDQ response",
+                                "isPrimaryKey": true,
+                                "isNullable": false
+                            },
+                            {
+                                "name": "ProjectId",
+                                "type": "string",
+                                "description": "Foreign key reference to Projects table",
+                                "isPrimaryKey": false,
+                                "isNullable": false,
+                                "foreignKey": {
+                                    "referencedTable": "ds-003-projects",
+                                    "referencedField": "ProjectId"
+                                }
+                            },
+                            {
+                                "name": "Question",
+                                "type": "string",
+                                "description": "DDQ question text",
+                                "isPrimaryKey": false,
+                                "isNullable": false
+                            },
+                            {
+                                "name": "Answer",
+                                "type": "text",
+                                "description": "Response content for the question",
+                                "isPrimaryKey": false,
+                                "isNullable": true
+                            },
+                            {
+                                "name": "Reviewer",
+                                "type": "string",
+                                "description": "Team member who reviewed the response",
+                                "isPrimaryKey": false,
+                                "isNullable": true
+                            },
+                            {
+                                "name": "ApprovalStatus",
+                                "type": "string",
+                                "description": "Approval status (Draft, Under Review, Approved, Rejected)",
+                                "isPrimaryKey": false,
+                                "isNullable": true
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "ds-004",
+                "name": "Pitchbook",
+                "type": "Market Intelligence",
+                "vendor": "PitchBook Data",
+                "description": "Private market research and deal sourcing",
+                "connectionType": "API",
+                "endpoints": {
+                    "base": "https://api.pitchbook.com/v2",
+                    "auth": "https://api.pitchbook.com/oauth/authorize"
+                },
+                "datasets": [
+                    {
+                        "id": "ds-004-companies",
+                        "name": "Companies",
+                        "description": "Private company profiles and financials",
+                        "recordCount": 850000,
+                        "fields": [
+                            {
+                                "name": "CompanyId",
+                                "type": "string",
+                                "description": "Unique identifier for the company in PitchBook",
+                                "isPrimaryKey": true,
+                                "isNullable": false
+                            },
+                            {
+                                "name": "Name",
+                                "type": "string",
+                                "description": "Company name",
+                                "isPrimaryKey": false,
+                                "isNullable": false
+                            },
+                            {
+                                "name": "Industry",
+                                "type": "string",
+                                "description": "Primary industry classification",
+                                "isPrimaryKey": false,
+                                "isNullable": true
+                            },
+                            {
+                                "name": "Geography",
+                                "type": "string",
+                                "description": "Geographic location or headquarters",
+                                "isPrimaryKey": false,
+                                "isNullable": true
+                            },
+                            {
+                                "name": "FundingStage",
+                                "type": "string",
+                                "description": "Current funding stage (Seed, Series A, B, C, etc.)",
+                                "isPrimaryKey": false,
+                                "isNullable": true
+                            },
+                            {
+                                "name": "TotalRaised",
+                                "type": "decimal",
+                                "description": "Total funding raised to date in USD",
+                                "isPrimaryKey": false,
+                                "isNullable": true
+                            },
+                            {
+                                "name": "Valuation",
+                                "type": "decimal",
+                                "description": "Last known company valuation in USD",
+                                "isPrimaryKey": false,
+                                "isNullable": true
+                            }
+                        ]
+                    },
+                    {
+                        "id": "ds-004-deals",
+                        "name": "Deals",
+                        "description": "M&A and financing transaction data",
+                        "recordCount": 120000,
+                        "fields": [
+                            {
+                                "name": "DealId",
+                                "type": "string",
+                                "description": "Unique identifier for the deal transaction",
+                                "isPrimaryKey": true,
+                                "isNullable": false
+                            },
+                            {
+                                "name": "Date",
+                                "type": "date",
+                                "description": "Deal announcement or completion date",
+                                "isPrimaryKey": false,
+                                "isNullable": false
+                            },
+                            {
+                                "name": "Type",
+                                "type": "string",
+                                "description": "Deal type (M&A, Financing, IPO, etc.)",
+                                "isPrimaryKey": false,
+                                "isNullable": false
+                            },
+                            {
+                                "name": "Amount",
+                                "type": "decimal",
+                                "description": "Deal amount in USD",
+                                "isPrimaryKey": false,
+                                "isNullable": true
+                            },
+                            {
+                                "name": "Acquirer",
+                                "type": "string",
+                                "description": "Acquiring company or entity",
+                                "isPrimaryKey": false,
+                                "isNullable": true
+                            },
+                            {
+                                "name": "Target",
+                                "type": "string",
+                                "description": "Target company being acquired",
+                                "isPrimaryKey": false,
+                                "isNullable": true
+                            },
+                            {
+                                "name": "Investors",
+                                "type": "string",
+                                "description": "Comma-separated list of participating investors",
+                                "isPrimaryKey": false,
+                                "isNullable": true
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "ds-005",
+                "name": "Preqin",
+                "type": "Alternative Assets Data",
+                "vendor": "Preqin",
+                "description": "Alternative assets intelligence and benchmarking",
+                "connectionType": "API",
+                "endpoints": {
+                    "base": "https://api.preqin.com/v1",
+                    "auth": "https://auth.preqin.com/token"
+                },
+                "datasets": [
+                    {
+                        "id": "ds-005-benchmarks",
+                        "name": "Performance Benchmarks",
+                        "description": "Industry performance benchmarks and quartile rankings",
+                        "recordCount": 25000,
+                        "fields": [
+                            {
+                                "name": "BenchmarkId",
+                                "type": "string",
+                                "description": "Unique identifier for the benchmark record",
+                                "isPrimaryKey": true,
+                                "isNullable": false
+                            },
+                            {
+                                "name": "Strategy",
+                                "type": "string",
+                                "description": "Investment strategy or fund type",
+                                "isPrimaryKey": false,
+                                "isNullable": false
+                            },
+                            {
+                                "name": "VintageYear",
+                                "type": "integer",
+                                "description": "Fund vintage year for the benchmark",
+                                "isPrimaryKey": false,
+                                "isNullable": false
+                            },
+                            {
+                                "name": "Geography",
+                                "type": "string",
+                                "description": "Geographic focus or region",
+                                "isPrimaryKey": false,
+                                "isNullable": true
+                            },
+                            {
+                                "name": "MedianIRR",
+                                "type": "decimal",
+                                "description": "Median Internal Rate of Return as percentage",
+                                "isPrimaryKey": false,
+                                "isNullable": true
+                            },
+                            {
+                                "name": "TopQuartile",
+                                "type": "decimal",
+                                "description": "Top quartile performance threshold",
+                                "isPrimaryKey": false,
+                                "isNullable": true
+                            },
+                            {
+                                "name": "BottomQuartile",
+                                "type": "decimal",
+                                "description": "Bottom quartile performance threshold",
+                                "isPrimaryKey": false,
+                                "isNullable": true
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "entityRelationshipDiagram": {
+            "description": "Data relationships and dependencies across all data sources",
+            "relationships": [
+                {
+                    "name": "Account-Contact Relationship",
+                    "type": "one-to-many",
+                    "fromTable": "ds-001-accounts",
+                    "fromField": "AccountId",
+                    "toTable": "ds-001-contacts",
+                    "toField": "AccountId",
+                    "description": "One account can have multiple contacts"
+                },
+                {
+                    "name": "Fund-Transaction Relationship",
+                    "type": "one-to-many",
+                    "fromTable": "ds-002-funds",
+                    "fromField": "FundId",
+                    "toTable": "ds-002-transactions",
+                    "toField": "FundId",
+                    "description": "One fund can have multiple transactions"
+                },
+                {
+                    "name": "Portfolio Company-Transaction Relationship",
+                    "type": "one-to-many",
+                    "fromTable": "ds-002-portfolio-companies",
+                    "fromField": "CompanyId",
+                    "toTable": "ds-002-transactions",
+                    "toField": "CompanyId",
+                    "description": "One portfolio company can have multiple transactions"
+                },
+                {
+                    "name": "Project-DDQ Response Relationship",
+                    "type": "one-to-many",
+                    "fromTable": "ds-003-projects",
+                    "fromField": "ProjectId",
+                    "toTable": "ds-003-ddq-responses",
+                    "toField": "ProjectId",
+                    "description": "One project can have multiple DDQ responses"
+                }
+            ],
+            "businessRules": [
+                {
+                    "rule": "Data Consistency",
+                    "description": "Company names across Salesforce Accounts and eFront Portfolio Companies should be matched for comprehensive reporting"
+                },
+                {
+                    "rule": "Investment Tracking",
+                    "description": "Investment amounts in eFront should reconcile with opportunity amounts in Salesforce for closed deals"
+                },
+                {
+                    "rule": "Benchmark Comparison",
+                    "description": "Fund performance metrics in eFront should be compared against Preqin benchmarks by strategy and vintage year"
+                },
+                {
+                    "rule": "Deal Intelligence",
+                    "description": "PitchBook deal data can be cross-referenced with Salesforce opportunities to identify market trends"
+                }
+            ],
+            "dataLineage": [
+                {
+                    "source": "Salesforce CRM",
+                    "targets": [
+                        "eFront Portfolio Management"
+                    ],
+                    "description": "Account data flows from Salesforce to eFront when opportunities convert to investments"
+                },
+                {
+                    "source": "eFront Portfolio Management",
+                    "targets": [
+                        "Preqin Benchmarks"
+                    ],
+                    "description": "Fund performance is compared against Preqin industry benchmarks"
+                },
+                {
+                    "source": "PitchBook Market Intelligence",
+                    "targets": [
+                        "Salesforce CRM"
+                    ],
+                    "description": "Market intelligence informs prospect identification and opportunity creation"
+                },
+                {
+                    "source": "Loopio RFP Management",
+                    "targets": [
+                        "Salesforce CRM"
+                    ],
+                    "description": "RFP project outcomes feed back into opportunity tracking"
+                }
+            ]
+        },
+        "metadata": {
+            "totalDataSources": 5,
+            "totalDatasets": 13,
+            "totalFields": 83,
+            "industryFocus": "Private Equity",
+            "complianceLevel": "SOC 2 Type II",
+            "dataGovernance": {
+                "dataClassification": "Confidential",
+                "retentionPolicy": "7 years",
+                "accessControl": "Role-based",
+                "encryptionStandard": "AES-256"
+            },
+            "qualityMetrics": {
+                "dataAccuracy": "98.5%",
+                "completeness": "95.2%",
+                "consistency": "97.8%",
+                "timeliness": "Real-time to Daily"
+            },
+            "integrationPatterns": [
+                "API-first",
+                "Event-driven",
+                "Batch processing",
+                "Real-time streaming"
+            ],
+            "businessGlossary": {
+                "IRR": "Internal Rate of Return - the rate of return that makes the net present value of all cash flows equal to zero",
+                "MOIC": "Multiple on Invested Capital - the ratio of the value received from an investment to the amount invested",
+                "NAV": "Net Asset Value - the total value of assets minus total value of liabilities",
+                "DDQ": "Due Diligence Questionnaire - detailed questionnaire used to evaluate potential investments",
+                "LP": "Limited Partner - an investor in a private equity fund with limited liability",
+                "GP": "General Partner - the entity responsible for managing a private equity fund"
+            }
+        }
+    }
+}

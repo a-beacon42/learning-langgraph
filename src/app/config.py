@@ -26,4 +26,4 @@ def make_llm() -> AzureChatOpenAI:
 
 
 MAX_STEPS = int(os.getenv("MAX_STEPS", "3"))
-FAST_PATH_ENABLED = True  # skip retrieval if plan says no data is needed
+FAST_PATH_ENABLED = True
