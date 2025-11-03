@@ -1,0 +1,802 @@
+[
+  {
+    "AccountId": "001585333595801934",
+    "Name": "Neal Ltd",
+    "Industry": "Biotechnology",
+    "Revenue": 5377014.54,
+    "OwnerName": "Michael Chen",
+    "Stage": "Exited"
+  },
+  {
+    "AccountId": "001629220411702767",
+    "Name": "Hanson-Jensen",
+    "Industry": "Biotechnology",
+    "Revenue": 481091526.71,
+    "OwnerName": "Emily Davis",
+    "Stage": "Exited"
+  },
+  {
+    "AccountId": "001201394135321361",
+    "Name": "Miller-Miller",
+    "Industry": "Consumer Goods",
+    "Revenue": 320317742.52,
+    "OwnerName": "John Smith",
+    "Stage": "Exited"
+  },
+  {
+    "AccountId": "001312277403204920",
+    "Name": "Rios, Arnold and Romero",
+    "Industry": "Retail",
+    "Revenue": 6070071.14,
+    "OwnerName": "David Brown",
+    "Stage": "Exited"
+  },
+  {
+    "AccountId": "001792063671917976",
+    "Name": "Salinas-Tucker",
+    "Industry": "Retail",
+    "Revenue": 452674714.63,
+    "OwnerName": "Sarah Johnson",
+    "Stage": "Portfolio"
+  },
+  {
+    "AccountId": "001410601076007526",
+    "Name": "Nguyen, Campbell and Moore",
+    "Industry": "Retail",
+    "Revenue": 333809355.84,
+    "OwnerName": "Rachel Taylor",
+    "Stage": "Prospect"
+  },
+  {
+    "AccountId": "001612135812556763",
+    "Name": "Stephenson, Bell and Banks",
+    "Industry": "Retail",
+    "Revenue": 351869543.63,
+    "OwnerName": "Chris Lee",
+    "Stage": "Exited"
+  },
+  {
+    "AccountId": "001682063933828284",
+    "Name": "Mccormick-Williams",
+    "Industry": "Transportation",
+    "Revenue": 335756637.05,
+    "OwnerName": "Lisa Anderson",
+    "Stage": "Portfolio"
+  },
+  {
+    "AccountId": "001507604387828918",
+    "Name": "Smith-Barrera",
+    "Industry": "Retail",
+    "Revenue": 470469424.95,
+    "OwnerName": "Sarah Johnson",
+    "Stage": "Portfolio"
+  },
+  {
+    "AccountId": "001743713336005734",
+    "Name": "Bright, Gill and Hebert",
+    "Industry": "Education",
+    "Revenue": 395857828.75,
+    "OwnerName": "Chris Lee",
+    "Stage": "Prospect"
+  },
+  {
+    "AccountId": "001797594421127371",
+    "Name": "Allen, Martinez and Morales",
+    "Industry": "Energy",
+    "Revenue": 180894566.77,
+    "OwnerName": "John Smith",
+    "Stage": "Prospect"
+  },
+  {
+    "AccountId": "001514511365224795",
+    "Name": "Young Group",
+    "Industry": "Education",
+    "Revenue": 340695636.81,
+    "OwnerName": "David Brown",
+    "Stage": "Portfolio"
+  },
+  {
+    "AccountId": "001454381864145783",
+    "Name": "Anderson and Sons",
+    "Industry": "Energy",
+    "Revenue": 441065624.6,
+    "OwnerName": "David Brown",
+    "Stage": "Prospect"
+  },
+  {
+    "AccountId": "001610410134074357",
+    "Name": "Arnold-Roberts",
+    "Industry": "Technology",
+    "Revenue": 9630150.26,
+    "OwnerName": "Sarah Johnson",
+    "Stage": "Portfolio"
+  },
+  {
+    "AccountId": "001378331786938660",
+    "Name": "Ramsey, Lopez and Miller",
+    "Industry": "Consumer Goods",
+    "Revenue": 449345870.34,
+    "OwnerName": "Emily Davis",
+    "Stage": "Exited"
+  },
+  {
+    "AccountId": "001154496167398045",
+    "Name": "Miller-Johnson",
+    "Industry": "Software",
+    "Revenue": 281287688.24,
+    "OwnerName": "Amanda Martinez",
+    "Stage": "Exited"
+  },
+  {
+    "AccountId": "001289362185465571",
+    "Name": "Green and Sons",
+    "Industry": "Manufacturing",
+    "Revenue": 151652884.38,
+    "OwnerName": "Sarah Johnson",
+    "Stage": "Portfolio"
+  },
+  {
+    "AccountId": "001473036311611360",
+    "Name": "Cain, Pittman and Oliver",
+    "Industry": "Media & Entertainment",
+    "Revenue": 274295037.84,
+    "OwnerName": "David Brown",
+    "Stage": "Prospect"
+  },
+  {
+    "AccountId": "001824394011265936",
+    "Name": "Wallace, King and Bennett",
+    "Industry": "Media & Entertainment",
+    "Revenue": 161179547.03,
+    "OwnerName": "Chris Lee",
+    "Stage": "Portfolio"
+  },
+  {
+    "AccountId": "001347354983810326",
+    "Name": "Sheppard Ltd",
+    "Industry": "Transportation",
+    "Revenue": 130888816.64,
+    "OwnerName": "Jennifer Garcia",
+    "Stage": "Exited"
+  },
+  {
+    "AccountId": "001687098247332374",
+    "Name": "Johnson Group",
+    "Industry": "Energy",
+    "Revenue": 359629290.33,
+    "OwnerName": "John Smith",
+    "Stage": "Portfolio"
+  },
+  {
+    "AccountId": "001901937098867886",
+    "Name": "Hunter, Rivera and Valencia",
+    "Industry": "Consumer Goods",
+    "Revenue": 470931553.43,
+    "OwnerName": "David Brown",
+    "Stage": "Prospect"
+  },
+  {
+    "AccountId": "001236471340680227",
+    "Name": "Hill and Sons",
+    "Industry": "Biotechnology",
+    "Revenue": 473599538.06,
+    "OwnerName": "Jennifer Garcia",
+    "Stage": "Exited"
+  },
+  {
+    "AccountId": "001290051447392568",
+    "Name": "Barker, Lopez and Nunez",
+    "Industry": "Consumer Goods",
+    "Revenue": 128700460.28,
+    "OwnerName": "Michael Chen",
+    "Stage": "Prospect"
+  },
+  {
+    "AccountId": "001716481059654927",
+    "Name": "Melendez-Jackson",
+    "Industry": "Software",
+    "Revenue": 361235289.12,
+    "OwnerName": "Amanda Martinez",
+    "Stage": "Prospect"
+  },
+  {
+    "AccountId": "001671303160286762",
+    "Name": "Bennett, Snyder and Carlson",
+    "Industry": "Telecommunications",
+    "Revenue": 237063737.4,
+    "OwnerName": "Chris Lee",
+    "Stage": "Portfolio"
+  },
+  {
+    "AccountId": "001961564615302920",
+    "Name": "Adams-Garcia",
+    "Industry": "Manufacturing",
+    "Revenue": 232263938.38,
+    "OwnerName": "Michael Chen",
+    "Stage": "Exited"
+  },
+  {
+    "AccountId": "001624502296657512",
+    "Name": "Bryant, Blanchard and Berry",
+    "Industry": "Software",
+    "Revenue": 240637455.62,
+    "OwnerName": "Robert Wilson",
+    "Stage": "Exited"
+  },
+  {
+    "AccountId": "001739132741905107",
+    "Name": "Lee-Roth",
+    "Industry": "Financial Services",
+    "Revenue": 199026284.54,
+    "OwnerName": "David Brown",
+    "Stage": "Prospect"
+  },
+  {
+    "AccountId": "001251186378901855",
+    "Name": "Silva Group",
+    "Industry": "Healthcare",
+    "Revenue": 416270149.93,
+    "OwnerName": "Rachel Taylor",
+    "Stage": "Exited"
+  },
+  {
+    "AccountId": "001156061303919893",
+    "Name": "Young Ltd",
+    "Industry": "Transportation",
+    "Revenue": 79317982.98,
+    "OwnerName": "Amanda Martinez",
+    "Stage": "Portfolio"
+  },
+  {
+    "AccountId": "001822195671862734",
+    "Name": "Sanchez-Cannon",
+    "Industry": "Real Estate",
+    "Revenue": 499785435.43,
+    "OwnerName": "Jennifer Garcia",
+    "Stage": "Exited"
+  },
+  {
+    "AccountId": "001326678645776636",
+    "Name": "Flores, Kemp and Salinas",
+    "Industry": "Technology",
+    "Revenue": 175684039.58,
+    "OwnerName": "Amanda Martinez",
+    "Stage": "Portfolio"
+  },
+  {
+    "AccountId": "001360926447113222",
+    "Name": "Morgan-Turner",
+    "Industry": "Software",
+    "Revenue": 322173001.69,
+    "OwnerName": "Chris Lee",
+    "Stage": "Prospect"
+  },
+  {
+    "AccountId": "001555815928119472",
+    "Name": "Gutierrez-Vargas",
+    "Industry": "Biotechnology",
+    "Revenue": 271643800.84,
+    "OwnerName": "Michael Chen",
+    "Stage": "Prospect"
+  },
+  {
+    "AccountId": "001223641756867866",
+    "Name": "Castillo, Brown and Underwood",
+    "Industry": "Retail",
+    "Revenue": 360193683.41,
+    "OwnerName": "Mark Thompson",
+    "Stage": "Prospect"
+  },
+  {
+    "AccountId": "001435751223078609",
+    "Name": "Vazquez, Erickson and Perry",
+    "Industry": "Healthcare",
+    "Revenue": 494176625.57,
+    "OwnerName": "Mark Thompson",
+    "Stage": "Portfolio"
+  },
+  {
+    "AccountId": "001365655552460658",
+    "Name": "Garcia, Mathews and Carpenter",
+    "Industry": "Manufacturing",
+    "Revenue": 214383164.82,
+    "OwnerName": "Robert Wilson",
+    "Stage": "Prospect"
+  },
+  {
+    "AccountId": "001623896165540409",
+    "Name": "Davis PLC",
+    "Industry": "Software",
+    "Revenue": 155332828.53,
+    "OwnerName": "Rachel Taylor",
+    "Stage": "Exited"
+  },
+  {
+    "AccountId": "001335618416853610",
+    "Name": "Maxwell-Evans",
+    "Industry": "Financial Services",
+    "Revenue": 424782612.09,
+    "OwnerName": "Robert Wilson",
+    "Stage": "Portfolio"
+  },
+  {
+    "AccountId": "001625714756373429",
+    "Name": "Bailey Inc",
+    "Industry": "Transportation",
+    "Revenue": 329757506.51,
+    "OwnerName": "Robert Wilson",
+    "Stage": "Portfolio"
+  },
+  {
+    "AccountId": "001968526877006731",
+    "Name": "Davis, Lee and Bond",
+    "Industry": "Transportation",
+    "Revenue": 498612459.46,
+    "OwnerName": "Lisa Anderson",
+    "Stage": "Prospect"
+  },
+  {
+    "AccountId": "001847547275590122",
+    "Name": "Kelley, Watts and Bryant",
+    "Industry": "Transportation",
+    "Revenue": 260179172.51,
+    "OwnerName": "Lisa Anderson",
+    "Stage": "Prospect"
+  },
+  {
+    "AccountId": "001802001887838310",
+    "Name": "Snyder, Henderson and Lewis",
+    "Industry": "Telecommunications",
+    "Revenue": 479376732.14,
+    "OwnerName": "David Brown",
+    "Stage": "Portfolio"
+  },
+  {
+    "AccountId": "001571868339449946",
+    "Name": "Welch LLC",
+    "Industry": "Real Estate",
+    "Revenue": 262168162.33,
+    "OwnerName": "Mark Thompson",
+    "Stage": "Portfolio"
+  },
+  {
+    "AccountId": "001950905524690007",
+    "Name": "Ponce and Sons",
+    "Industry": "Transportation",
+    "Revenue": 249373444.99,
+    "OwnerName": "Michael Chen",
+    "Stage": "Exited"
+  },
+  {
+    "AccountId": "001249974909795343",
+    "Name": "Bruce-Cook",
+    "Industry": "Transportation",
+    "Revenue": 370349113.08,
+    "OwnerName": "Emily Davis",
+    "Stage": "Exited"
+  },
+  {
+    "AccountId": "001253751681878372",
+    "Name": "Nelson-Weber",
+    "Industry": "Education",
+    "Revenue": 59547760.73,
+    "OwnerName": "Michael Chen",
+    "Stage": "Exited"
+  },
+  {
+    "AccountId": "001830125797611253",
+    "Name": "Hudson and Sons",
+    "Industry": "Media & Entertainment",
+    "Revenue": 215435418.11,
+    "OwnerName": "Mark Thompson",
+    "Stage": "Prospect"
+  },
+  {
+    "AccountId": "001833071948883476",
+    "Name": "Gilmore-Reed",
+    "Industry": "Transportation",
+    "Revenue": 322884171.69,
+    "OwnerName": "Michael Chen",
+    "Stage": "Exited"
+  },
+  {
+    "AccountId": "001389911721832932",
+    "Name": "James and Sons",
+    "Industry": "Real Estate",
+    "Revenue": 103454158.01,
+    "OwnerName": "Amanda Martinez",
+    "Stage": "Exited"
+  },
+  {
+    "AccountId": "001868912630601744",
+    "Name": "Anderson, Morton and Diaz",
+    "Industry": "Automotive",
+    "Revenue": 456200585.58,
+    "OwnerName": "Sarah Johnson",
+    "Stage": "Prospect"
+  },
+  {
+    "AccountId": "001412729909595446",
+    "Name": "Braun Ltd",
+    "Industry": "Software",
+    "Revenue": 397041046.34,
+    "OwnerName": "David Brown",
+    "Stage": "Exited"
+  },
+  {
+    "AccountId": "001265196519557792",
+    "Name": "Lewis, Duran and Baker",
+    "Industry": "Manufacturing",
+    "Revenue": 255611930.21,
+    "OwnerName": "Michael Chen",
+    "Stage": "Portfolio"
+  },
+  {
+    "AccountId": "001400184226567961",
+    "Name": "Macias-Garcia",
+    "Industry": "Healthcare",
+    "Revenue": 325170175.97,
+    "OwnerName": "Rachel Taylor",
+    "Stage": "Prospect"
+  },
+  {
+    "AccountId": "001995769546180143",
+    "Name": "Riley Inc",
+    "Industry": "Manufacturing",
+    "Revenue": 30240795.03,
+    "OwnerName": "Amanda Martinez",
+    "Stage": "Prospect"
+  },
+  {
+    "AccountId": "001728813218970745",
+    "Name": "Wright, Diaz and Jones",
+    "Industry": "Manufacturing",
+    "Revenue": 359025330.14,
+    "OwnerName": "Michael Chen",
+    "Stage": "Exited"
+  },
+  {
+    "AccountId": "001818935524377691",
+    "Name": "Sullivan, Acosta and Lindsey",
+    "Industry": "Manufacturing",
+    "Revenue": 381680951.88,
+    "OwnerName": "Sarah Johnson",
+    "Stage": "Prospect"
+  },
+  {
+    "AccountId": "001569909409766586",
+    "Name": "Gaines and Sons",
+    "Industry": "Financial Services",
+    "Revenue": 307766573.01,
+    "OwnerName": "John Smith",
+    "Stage": "Prospect"
+  },
+  {
+    "AccountId": "001900884377492111",
+    "Name": "Bailey, Gomez and Brown",
+    "Industry": "Consumer Goods",
+    "Revenue": 323691252.89,
+    "OwnerName": "Amanda Martinez",
+    "Stage": "Exited"
+  },
+  {
+    "AccountId": "001717012457012389",
+    "Name": "Spencer, Hernandez and Perry",
+    "Industry": "Technology",
+    "Revenue": 253264450.1,
+    "OwnerName": "Amanda Martinez",
+    "Stage": "Portfolio"
+  },
+  {
+    "AccountId": "001332650463090566",
+    "Name": "Newman-Moore",
+    "Industry": "Financial Services",
+    "Revenue": 125568944.22,
+    "OwnerName": "Robert Wilson",
+    "Stage": "Portfolio"
+  },
+  {
+    "AccountId": "001305536284775653",
+    "Name": "Jordan, Wilson and Bond",
+    "Industry": "Automotive",
+    "Revenue": 52987723.06,
+    "OwnerName": "Sarah Johnson",
+    "Stage": "Exited"
+  },
+  {
+    "AccountId": "001907818465018198",
+    "Name": "Lopez, Brown and Berry",
+    "Industry": "Biotechnology",
+    "Revenue": 441284003.68,
+    "OwnerName": "Emily Davis",
+    "Stage": "Portfolio"
+  },
+  {
+    "AccountId": "001566909886534135",
+    "Name": "Mejia Inc",
+    "Industry": "Consumer Goods",
+    "Revenue": 32219911.72,
+    "OwnerName": "Sarah Johnson",
+    "Stage": "Portfolio"
+  },
+  {
+    "AccountId": "001522038100488614",
+    "Name": "Hart, Simpson and Stone",
+    "Industry": "Retail",
+    "Revenue": 430764449.61,
+    "OwnerName": "Jennifer Garcia",
+    "Stage": "Portfolio"
+  },
+  {
+    "AccountId": "001499096320426532",
+    "Name": "English-Chang",
+    "Industry": "Media & Entertainment",
+    "Revenue": 22206543.34,
+    "OwnerName": "Amanda Martinez",
+    "Stage": "Prospect"
+  },
+  {
+    "AccountId": "001396269982314234",
+    "Name": "Larsen-Patton",
+    "Industry": "Retail",
+    "Revenue": 97852166.35,
+    "OwnerName": "Amanda Martinez",
+    "Stage": "Portfolio"
+  },
+  {
+    "AccountId": "001536957396354277",
+    "Name": "Lester and Sons",
+    "Industry": "Financial Services",
+    "Revenue": 428785099.46,
+    "OwnerName": "Jennifer Garcia",
+    "Stage": "Exited"
+  },
+  {
+    "AccountId": "001927219878798246",
+    "Name": "Johnson, Jackson and Garcia",
+    "Industry": "Consumer Goods",
+    "Revenue": 379515870.35,
+    "OwnerName": "Chris Lee",
+    "Stage": "Exited"
+  },
+  {
+    "AccountId": "001544973380246657",
+    "Name": "Thornton-Yu",
+    "Industry": "Automotive",
+    "Revenue": 95293684.74,
+    "OwnerName": "Emily Davis",
+    "Stage": "Exited"
+  },
+  {
+    "AccountId": "001513971703859849",
+    "Name": "Hines, Lee and Dominguez",
+    "Industry": "Consumer Goods",
+    "Revenue": 149435558.88,
+    "OwnerName": "Amanda Martinez",
+    "Stage": "Portfolio"
+  },
+  {
+    "AccountId": "001364000206559589",
+    "Name": "Riley Inc",
+    "Industry": "Biotechnology",
+    "Revenue": 239887413.66,
+    "OwnerName": "John Smith",
+    "Stage": "Prospect"
+  },
+  {
+    "AccountId": "001178654903562717",
+    "Name": "Simon, Olson and Hancock",
+    "Industry": "Automotive",
+    "Revenue": 300427756.79,
+    "OwnerName": "Jennifer Garcia",
+    "Stage": "Prospect"
+  },
+  {
+    "AccountId": "001742419611598285",
+    "Name": "Hahn and Sons",
+    "Industry": "Education",
+    "Revenue": 196964271.7,
+    "OwnerName": "John Smith",
+    "Stage": "Exited"
+  },
+  {
+    "AccountId": "001897314398151807",
+    "Name": "Villa-Simmons",
+    "Industry": "Telecommunications",
+    "Revenue": 411264205.44,
+    "OwnerName": "Amanda Martinez",
+    "Stage": "Portfolio"
+  },
+  {
+    "AccountId": "001163266288775566",
+    "Name": "Mitchell, Smith and Sharp",
+    "Industry": "Aerospace",
+    "Revenue": 162240048.24,
+    "OwnerName": "Michael Chen",
+    "Stage": "Portfolio"
+  },
+  {
+    "AccountId": "001661795091939059",
+    "Name": "Rodriguez Ltd",
+    "Industry": "Biotechnology",
+    "Revenue": 326905082.18,
+    "OwnerName": "Emily Davis",
+    "Stage": "Portfolio"
+  },
+  {
+    "AccountId": "001758478488293707",
+    "Name": "Johnson, Flores and Parsons",
+    "Industry": "Consumer Goods",
+    "Revenue": 53541752.51,
+    "OwnerName": "Rachel Taylor",
+    "Stage": "Exited"
+  },
+  {
+    "AccountId": "001224715795709100",
+    "Name": "Sanchez PLC",
+    "Industry": "Real Estate",
+    "Revenue": 61713658.91,
+    "OwnerName": "Lisa Anderson",
+    "Stage": "Exited"
+  },
+  {
+    "AccountId": "001584219669043901",
+    "Name": "Clark-Brady",
+    "Industry": "Media & Entertainment",
+    "Revenue": 115391382.28,
+    "OwnerName": "David Brown",
+    "Stage": "Portfolio"
+  },
+  {
+    "AccountId": "001701617265275708",
+    "Name": "Li Inc",
+    "Industry": "Automotive",
+    "Revenue": 444346874.53,
+    "OwnerName": "Amanda Martinez",
+    "Stage": "Exited"
+  },
+  {
+    "AccountId": "001838400666890205",
+    "Name": "Castillo PLC",
+    "Industry": "Automotive",
+    "Revenue": 225595992.77,
+    "OwnerName": "David Brown",
+    "Stage": "Portfolio"
+  },
+  {
+    "AccountId": "001307224785785800",
+    "Name": "Gonzalez Ltd",
+    "Industry": "Energy",
+    "Revenue": 124677837.76,
+    "OwnerName": "Sarah Johnson",
+    "Stage": "Exited"
+  },
+  {
+    "AccountId": "001164176860701449",
+    "Name": "Phillips, Adams and Mills",
+    "Industry": "Education",
+    "Revenue": 410761158.08,
+    "OwnerName": "Emily Davis",
+    "Stage": "Prospect"
+  },
+  {
+    "AccountId": "001536104271541919",
+    "Name": "Meyer and Sons",
+    "Industry": "Healthcare",
+    "Revenue": 266891081.85,
+    "OwnerName": "Mark Thompson",
+    "Stage": "Prospect"
+  },
+  {
+    "AccountId": "001411245801660386",
+    "Name": "Freeman Group",
+    "Industry": "Consumer Goods",
+    "Revenue": 379181179.43,
+    "OwnerName": "Emily Davis",
+    "Stage": "Portfolio"
+  },
+  {
+    "AccountId": "001149689249860624",
+    "Name": "Meyer Ltd",
+    "Industry": "Retail",
+    "Revenue": 368153648.5,
+    "OwnerName": "Amanda Martinez",
+    "Stage": "Prospect"
+  },
+  {
+    "AccountId": "001361394337073551",
+    "Name": "Parker, Best and Cochran",
+    "Industry": "Automotive",
+    "Revenue": 263241800.48,
+    "OwnerName": "David Brown",
+    "Stage": "Exited"
+  },
+  {
+    "AccountId": "001793059378584116",
+    "Name": "Scott-Harris",
+    "Industry": "Technology",
+    "Revenue": 321996650.49,
+    "OwnerName": "Sarah Johnson",
+    "Stage": "Exited"
+  },
+  {
+    "AccountId": "001861979841678369",
+    "Name": "Webb, Thomas and Shields",
+    "Industry": "Aerospace",
+    "Revenue": 339092085.6,
+    "OwnerName": "Sarah Johnson",
+    "Stage": "Portfolio"
+  },
+  {
+    "AccountId": "001702937850338056",
+    "Name": "Tate, Brown and Kelley",
+    "Industry": "Automotive",
+    "Revenue": 70963045.43,
+    "OwnerName": "Lisa Anderson",
+    "Stage": "Portfolio"
+  },
+  {
+    "AccountId": "001523373281095412",
+    "Name": "Grant, Jackson and Mason",
+    "Industry": "Energy",
+    "Revenue": 152049504.6,
+    "OwnerName": "Rachel Taylor",
+    "Stage": "Exited"
+  },
+  {
+    "AccountId": "001864736650893311",
+    "Name": "Brown, Moore and Duffy",
+    "Industry": "Media & Entertainment",
+    "Revenue": 204574910.1,
+    "OwnerName": "Amanda Martinez",
+    "Stage": "Prospect"
+  },
+  {
+    "AccountId": "001853946292222619",
+    "Name": "Moore, Hill and Wilson",
+    "Industry": "Technology",
+    "Revenue": 194267650.93,
+    "OwnerName": "Emily Davis",
+    "Stage": "Exited"
+  },
+  {
+    "AccountId": "001681810146647467",
+    "Name": "Cain, Lindsey and Haynes",
+    "Industry": "Manufacturing",
+    "Revenue": 134374957.18,
+    "OwnerName": "Mark Thompson",
+    "Stage": "Portfolio"
+  },
+  {
+    "AccountId": "001461884772984943",
+    "Name": "Washington and Sons",
+    "Industry": "Manufacturing",
+    "Revenue": 451148787.9,
+    "OwnerName": "Chris Lee",
+    "Stage": "Prospect"
+  },
+  {
+    "AccountId": "001241514366741970",
+    "Name": "White Group",
+    "Industry": "Consumer Goods",
+    "Revenue": 182246520.42,
+    "OwnerName": "Sarah Johnson",
+    "Stage": "Exited"
+  },
+  {
+    "AccountId": "001754934641321306",
+    "Name": "Short-Higgins",
+    "Industry": "Technology",
+    "Revenue": 99477299.13,
+    "OwnerName": "Emily Davis",
+    "Stage": "Prospect"
+  },
+  {
+    "AccountId": "001460320043827510",
+    "Name": "Smith, Robertson and Howe",
+    "Industry": "Media & Entertainment",
+    "Revenue": 147675159.62,
+    "OwnerName": "John Smith",
+    "Stage": "Exited"
+  }
+]

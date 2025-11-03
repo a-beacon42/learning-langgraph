@@ -1,0 +1,1802 @@
+[
+  {
+    "OpportunityId": "006232735407574165",
+    "Name": "Secondary Transaction - Stone Ltd",
+    "Amount": 146075715.56,
+    "CloseDate": "2026-07-28",
+    "Stage": "Term Sheet",
+    "Probability": 68.1,
+    "AccountId": "001365655552460658"
+  },
+  {
+    "OpportunityId": "006258001404313337",
+    "Name": "Platform Investment - Wilson Ltd",
+    "Amount": 123494734.38,
+    "CloseDate": "2026-05-05",
+    "Stage": "Prospecting",
+    "Probability": 21.1,
+    "AccountId": "001253751681878372"
+  },
+  {
+    "OpportunityId": "006689936638171303",
+    "Name": "Buyout - Padilla, Bennett and Anderson",
+    "Amount": 177734511.69,
+    "CloseDate": "2026-03-27",
+    "Stage": "Prospecting",
+    "Probability": 27.3,
+    "AccountId": "001797594421127371"
+  },
+  {
+    "OpportunityId": "006596158286617317",
+    "Name": "Add-on Acquisition - Manning Group",
+    "Amount": 77437030.06,
+    "CloseDate": "2025-11-07",
+    "Stage": "Qualification",
+    "Probability": 28.5,
+    "AccountId": "001522038100488614"
+  },
+  {
+    "OpportunityId": "006436609686472289",
+    "Name": "Growth Capital - Thompson, Reed and Bruce",
+    "Amount": 66005047.88,
+    "CloseDate": "2026-03-18",
+    "Stage": "Qualification",
+    "Probability": 34.3,
+    "AccountId": "001555815928119472"
+  },
+  {
+    "OpportunityId": "006636975102514475",
+    "Name": "Recapitalization - Campbell-Larson",
+    "Amount": 163178093.62,
+    "CloseDate": "2026-04-11",
+    "Stage": "Due Diligence",
+    "Probability": 41.3,
+    "AccountId": "001702937850338056"
+  },
+  {
+    "OpportunityId": "006687607202879603",
+    "Name": "Growth Capital - Mccall Group",
+    "Amount": 198923122.41,
+    "CloseDate": "2025-04-22",
+    "Stage": "Closed Won",
+    "Probability": 100,
+    "AccountId": "001149689249860624"
+  },
+  {
+    "OpportunityId": "006809188824177989",
+    "Name": "Growth Capital - Garcia, Franklin and Lucas",
+    "Amount": 38387597.1,
+    "CloseDate": "2025-11-20",
+    "Stage": "Term Sheet",
+    "Probability": 64.7,
+    "AccountId": "001824394011265936"
+  },
+  {
+    "OpportunityId": "006891994478532731",
+    "Name": "Recapitalization - Torres Inc",
+    "Amount": 123004379.18,
+    "CloseDate": "2025-12-22",
+    "Stage": "Qualification",
+    "Probability": 37.7,
+    "AccountId": "001251186378901855"
+  },
+  {
+    "OpportunityId": "006129607802937293",
+    "Name": "Platform Investment - Smith, Hernandez and Wilson",
+    "Amount": 129577287.19,
+    "CloseDate": "2026-02-18",
+    "Stage": "Term Sheet",
+    "Probability": 65.0,
+    "AccountId": "001332650463090566"
+  },
+  {
+    "OpportunityId": "006209969772802037",
+    "Name": "Secondary Transaction - Woodard-Thomas",
+    "Amount": 176820955.8,
+    "CloseDate": "2026-03-09",
+    "Stage": "Prospecting",
+    "Probability": 20.3,
+    "AccountId": "001742419611598285"
+  },
+  {
+    "OpportunityId": "006908343445219732",
+    "Name": "Secondary Transaction - Houston, Reyes and Murphy",
+    "Amount": 167378952.58,
+    "CloseDate": "2025-03-09",
+    "Stage": "Closed Won",
+    "Probability": 100,
+    "AccountId": "001716481059654927"
+  },
+  {
+    "OpportunityId": "006880436213972282",
+    "Name": "Platform Investment - Hayes, Lewis and Chambers",
+    "Amount": 124754039.13,
+    "CloseDate": "2026-08-13",
+    "Stage": "Qualification",
+    "Probability": 30.6,
+    "AccountId": "001610410134074357"
+  },
+  {
+    "OpportunityId": "006638138742786683",
+    "Name": "Buyout - Thompson and Sons",
+    "Amount": 160394568.6,
+    "CloseDate": "2026-02-14",
+    "Stage": "Prospecting",
+    "Probability": 18.6,
+    "AccountId": "001460320043827510"
+  },
+  {
+    "OpportunityId": "006987321885865217",
+    "Name": "Secondary Transaction - Ryan, Thomas and Johnson",
+    "Amount": 22820287.25,
+    "CloseDate": "2025-12-10",
+    "Stage": "Qualification",
+    "Probability": 31.5,
+    "AccountId": "001544973380246657"
+  },
+  {
+    "OpportunityId": "006354398732324013",
+    "Name": "Platform Investment - Wright and Sons",
+    "Amount": 168367035.51,
+    "CloseDate": "2024-11-02",
+    "Stage": "Closed Lost",
+    "Probability": 0,
+    "AccountId": "001412729909595446"
+  },
+  {
+    "OpportunityId": "006257864539306589",
+    "Name": "Recapitalization - Campos, Galvan and Johnson",
+    "Amount": 78518747.43,
+    "CloseDate": "2025-11-08",
+    "Stage": "Prospecting",
+    "Probability": 20.5,
+    "AccountId": "001514511365224795"
+  },
+  {
+    "OpportunityId": "006457207738142564",
+    "Name": "Add-on Acquisition - Lester-Olson",
+    "Amount": 197819070.57,
+    "CloseDate": "2026-09-28",
+    "Stage": "Due Diligence",
+    "Probability": 49.9,
+    "AccountId": "001687098247332374"
+  },
+  {
+    "OpportunityId": "006464645354609091",
+    "Name": "Platform Investment - Mann, Johnston and Taylor",
+    "Amount": 32919304.41,
+    "CloseDate": "2025-12-15",
+    "Stage": "Qualification",
+    "Probability": 25.4,
+    "AccountId": "001995769546180143"
+  },
+  {
+    "OpportunityId": "006780247844575750",
+    "Name": "Platform Investment - Delgado and Sons",
+    "Amount": 98243108.81,
+    "CloseDate": "2026-02-28",
+    "Stage": "Term Sheet",
+    "Probability": 68.2,
+    "AccountId": "001400184226567961"
+  },
+  {
+    "OpportunityId": "006399503876124932",
+    "Name": "Growth Capital - Dudley, Bush and Walker",
+    "Amount": 178525777.38,
+    "CloseDate": "2026-07-16",
+    "Stage": "Negotiation",
+    "Probability": 81.0,
+    "AccountId": "001364000206559589"
+  },
+  {
+    "OpportunityId": "006407337416628176",
+    "Name": "Growth Capital - Thomas-Young",
+    "Amount": 58791551.35,
+    "CloseDate": "2026-05-26",
+    "Stage": "Prospecting",
+    "Probability": 10.9,
+    "AccountId": "001830125797611253"
+  },
+  {
+    "OpportunityId": "006504823493650558",
+    "Name": "Add-on Acquisition - Perez, Jordan and Nunez",
+    "Amount": 17783750.67,
+    "CloseDate": "2025-11-24",
+    "Stage": "Prospecting",
+    "Probability": 26.2,
+    "AccountId": "001793059378584116"
+  },
+  {
+    "OpportunityId": "006815418951323704",
+    "Name": "Add-on Acquisition - Wolf-Taylor",
+    "Amount": 26171882.75,
+    "CloseDate": "2025-12-10",
+    "Stage": "Due Diligence",
+    "Probability": 46.7,
+    "AccountId": "001241514366741970"
+  },
+  {
+    "OpportunityId": "006573020691652910",
+    "Name": "Add-on Acquisition - Huang, Taylor and Christensen",
+    "Amount": 193236589.59,
+    "CloseDate": "2026-08-13",
+    "Stage": "Term Sheet",
+    "Probability": 65.5,
+    "AccountId": "001460320043827510"
+  },
+  {
+    "OpportunityId": "006817474627813564",
+    "Name": "Secondary Transaction - Carpenter, Li and Cantrell",
+    "Amount": 184720914.43,
+    "CloseDate": "2026-10-18",
+    "Stage": "Qualification",
+    "Probability": 42.0,
+    "AccountId": "001307224785785800"
+  },
+  {
+    "OpportunityId": "006549721053827267",
+    "Name": "Secondary Transaction - Malone, Baird and Villa",
+    "Amount": 76325560.33,
+    "CloseDate": "2026-07-05",
+    "Stage": "Prospecting",
+    "Probability": 20.4,
+    "AccountId": "001754934641321306"
+  },
+  {
+    "OpportunityId": "006397160386979877",
+    "Name": "Recapitalization - Lam, Andersen and Green",
+    "Amount": 86089285.45,
+    "CloseDate": "2026-01-18",
+    "Stage": "Due Diligence",
+    "Probability": 46.7,
+    "AccountId": "001536957396354277"
+  },
+  {
+    "OpportunityId": "006412906371906415",
+    "Name": "Growth Capital - Sparks-Gallagher",
+    "Amount": 191398183.74,
+    "CloseDate": "2026-10-11",
+    "Stage": "Prospecting",
+    "Probability": 15.8,
+    "AccountId": "001378331786938660"
+  },
+  {
+    "OpportunityId": "006680442693290930",
+    "Name": "Buyout - Moore Group",
+    "Amount": 99045783.45,
+    "CloseDate": "2025-05-30",
+    "Stage": "Closed Won",
+    "Probability": 100,
+    "AccountId": "001410601076007526"
+  },
+  {
+    "OpportunityId": "006678323480598854",
+    "Name": "Buyout - Taylor, Huynh and Wood",
+    "Amount": 41869921.76,
+    "CloseDate": "2026-07-05",
+    "Stage": "Term Sheet",
+    "Probability": 77.9,
+    "AccountId": "001830125797611253"
+  },
+  {
+    "OpportunityId": "006436987032965213",
+    "Name": "Buyout - Craig-Edwards",
+    "Amount": 94117531.75,
+    "CloseDate": "2026-06-02",
+    "Stage": "Prospecting",
+    "Probability": 24.5,
+    "AccountId": "001536104271541919"
+  },
+  {
+    "OpportunityId": "006569699901075705",
+    "Name": "Platform Investment - Quinn Ltd",
+    "Amount": 84437319.59,
+    "CloseDate": "2026-02-11",
+    "Stage": "Qualification",
+    "Probability": 41.2,
+    "AccountId": "001326678645776636"
+  },
+  {
+    "OpportunityId": "006128316935580829",
+    "Name": "Recapitalization - Martinez Ltd",
+    "Amount": 54706630.69,
+    "CloseDate": "2026-10-23",
+    "Stage": "Prospecting",
+    "Probability": 25.2,
+    "AccountId": "001513971703859849"
+  },
+  {
+    "OpportunityId": "006676835116442592",
+    "Name": "Buyout - Franco-Barnes",
+    "Amount": 117771574.62,
+    "CloseDate": "2024-07-23",
+    "Stage": "Closed Won",
+    "Probability": 100,
+    "AccountId": "001682063933828284"
+  },
+  {
+    "OpportunityId": "006548871963704199",
+    "Name": "Add-on Acquisition - Koch, Taylor and Cruz",
+    "Amount": 119653669.05,
+    "CloseDate": "2024-11-27",
+    "Stage": "Closed Won",
+    "Probability": 100,
+    "AccountId": "001927219878798246"
+  },
+  {
+    "OpportunityId": "006291812710101936",
+    "Name": "Platform Investment - Baker Inc",
+    "Amount": 81238562.09,
+    "CloseDate": "2026-06-10",
+    "Stage": "Qualification",
+    "Probability": 39.3,
+    "AccountId": "001792063671917976"
+  },
+  {
+    "OpportunityId": "006820058502881928",
+    "Name": "Buyout - Burton-Willis",
+    "Amount": 76832312.89,
+    "CloseDate": "2026-09-02",
+    "Stage": "Prospecting",
+    "Probability": 27.9,
+    "AccountId": "001838400666890205"
+  },
+  {
+    "OpportunityId": "006589412100249993",
+    "Name": "Buyout - Johnson, Potter and Alexander",
+    "Amount": 65609547.37,
+    "CloseDate": "2025-03-14",
+    "Stage": "Closed Lost",
+    "Probability": 0,
+    "AccountId": "001758478488293707"
+  },
+  {
+    "OpportunityId": "006283662863598049",
+    "Name": "Buyout - Hess-Shepherd",
+    "Amount": 152267217.05,
+    "CloseDate": "2026-05-16",
+    "Stage": "Prospecting",
+    "Probability": 10.1,
+    "AccountId": "001326678645776636"
+  },
+  {
+    "OpportunityId": "006198040128565418",
+    "Name": "Platform Investment - Smith-Ryan",
+    "Amount": 101006208.76,
+    "CloseDate": "2026-03-10",
+    "Stage": "Qualification",
+    "Probability": 31.2,
+    "AccountId": "001332650463090566"
+  },
+  {
+    "OpportunityId": "006566399400306860",
+    "Name": "Add-on Acquisition - Friedman, Mcdonald and Booker",
+    "Amount": 121345234.84,
+    "CloseDate": "2024-04-10",
+    "Stage": "Closed Won",
+    "Probability": 100,
+    "AccountId": "001536957396354277"
+  },
+  {
+    "OpportunityId": "006609566361659442",
+    "Name": "Secondary Transaction - Clark Ltd",
+    "Amount": 180472734.74,
+    "CloseDate": "2026-06-30",
+    "Stage": "Due Diligence",
+    "Probability": 53.8,
+    "AccountId": "001454381864145783"
+  },
+  {
+    "OpportunityId": "006736864332690986",
+    "Name": "Recapitalization - Singh-Middleton",
+    "Amount": 74471284.19,
+    "CloseDate": "2026-08-21",
+    "Stage": "Negotiation",
+    "Probability": 88.0,
+    "AccountId": "001396269982314234"
+  },
+  {
+    "OpportunityId": "006589182848601731",
+    "Name": "Recapitalization - Williams, Gallegos and Jenkins",
+    "Amount": 87033630.13,
+    "CloseDate": "2026-02-19",
+    "Stage": "Prospecting",
+    "Probability": 17.5,
+    "AccountId": "001149689249860624"
+  },
+  {
+    "OpportunityId": "006614812064268508",
+    "Name": "Add-on Acquisition - Scott LLC",
+    "Amount": 131099791.22,
+    "CloseDate": "2026-09-08",
+    "Stage": "Negotiation",
+    "Probability": 71.4,
+    "AccountId": "001861979841678369"
+  },
+  {
+    "OpportunityId": "006360134684457740",
+    "Name": "Platform Investment - Schwartz-Miller",
+    "Amount": 81592471.34,
+    "CloseDate": "2024-12-22",
+    "Stage": "Closed Lost",
+    "Probability": 0,
+    "AccountId": "001412729909595446"
+  },
+  {
+    "OpportunityId": "006808999959527714",
+    "Name": "Secondary Transaction - Ramirez-Brock",
+    "Amount": 55137948.33,
+    "CloseDate": "2026-03-06",
+    "Stage": "Due Diligence",
+    "Probability": 41.4,
+    "AccountId": "001253751681878372"
+  },
+  {
+    "OpportunityId": "006382866590836984",
+    "Name": "Platform Investment - Hancock Group",
+    "Amount": 69233034.41,
+    "CloseDate": "2026-05-09",
+    "Stage": "Qualification",
+    "Probability": 27.4,
+    "AccountId": "001513971703859849"
+  },
+  {
+    "OpportunityId": "006505291314934271",
+    "Name": "Add-on Acquisition - Wright-Mcgee",
+    "Amount": 29433502.73,
+    "CloseDate": "2024-11-21",
+    "Stage": "Closed Won",
+    "Probability": 100,
+    "AccountId": "001389911721832932"
+  },
+  {
+    "OpportunityId": "006769199108161314",
+    "Name": "Add-on Acquisition - Conley Group",
+    "Amount": 116150791.66,
+    "CloseDate": "2023-11-13",
+    "Stage": "Closed Won",
+    "Probability": 100,
+    "AccountId": "001507604387828918"
+  },
+  {
+    "OpportunityId": "006676138968796333",
+    "Name": "Platform Investment - Miller-Bennett",
+    "Amount": 137705165.81,
+    "CloseDate": "2026-07-29",
+    "Stage": "Prospecting",
+    "Probability": 24.4,
+    "AccountId": "001702937850338056"
+  },
+  {
+    "OpportunityId": "006402043525533871",
+    "Name": "Add-on Acquisition - Ellis Group",
+    "Amount": 92815696.08,
+    "CloseDate": "2023-11-22",
+    "Stage": "Closed Won",
+    "Probability": 100,
+    "AccountId": "001499096320426532"
+  },
+  {
+    "OpportunityId": "006618987252401483",
+    "Name": "Growth Capital - Sanchez-Williamson",
+    "Amount": 102085751.67,
+    "CloseDate": "2024-11-19",
+    "Stage": "Closed Lost",
+    "Probability": 0,
+    "AccountId": "001623896165540409"
+  },
+  {
+    "OpportunityId": "006897052498431909",
+    "Name": "Add-on Acquisition - Russo PLC",
+    "Amount": 32520768.37,
+    "CloseDate": "2024-11-01",
+    "Stage": "Closed Lost",
+    "Probability": 0,
+    "AccountId": "001361394337073551"
+  },
+  {
+    "OpportunityId": "006896341186333695",
+    "Name": "Recapitalization - Cooley LLC",
+    "Amount": 26394716.52,
+    "CloseDate": "2026-03-09",
+    "Stage": "Term Sheet",
+    "Probability": 65.8,
+    "AccountId": "001156061303919893"
+  },
+  {
+    "OpportunityId": "006907201308585788",
+    "Name": "Buyout - Morales and Sons",
+    "Amount": 9851412.46,
+    "CloseDate": "2026-05-17",
+    "Stage": "Due Diligence",
+    "Probability": 59.3,
+    "AccountId": "001201394135321361"
+  },
+  {
+    "OpportunityId": "006837192100116127",
+    "Name": "Platform Investment - Johnson PLC",
+    "Amount": 24010028.02,
+    "CloseDate": "2026-01-15",
+    "Stage": "Prospecting",
+    "Probability": 23.7,
+    "AccountId": "001612135812556763"
+  },
+  {
+    "OpportunityId": "006697399095835973",
+    "Name": "Growth Capital - Ayala, Diaz and Willis",
+    "Amount": 176454977.22,
+    "CloseDate": "2025-03-04",
+    "Stage": "Closed Won",
+    "Probability": 100,
+    "AccountId": "001249974909795343"
+  },
+  {
+    "OpportunityId": "006522276529115742",
+    "Name": "Recapitalization - Wilson, Long and Manning",
+    "Amount": 188998034.02,
+    "CloseDate": "2025-01-09",
+    "Stage": "Closed Won",
+    "Probability": 100,
+    "AccountId": "001995769546180143"
+  },
+  {
+    "OpportunityId": "006605998022856416",
+    "Name": "Recapitalization - Wells LLC",
+    "Amount": 168166234.69,
+    "CloseDate": "2025-12-11",
+    "Stage": "Negotiation",
+    "Probability": 86.7,
+    "AccountId": "001995769546180143"
+  },
+  {
+    "OpportunityId": "006253035038820174",
+    "Name": "Recapitalization - Byrd-Richardson",
+    "Amount": 171532294.23,
+    "CloseDate": "2026-03-29",
+    "Stage": "Negotiation",
+    "Probability": 78.4,
+    "AccountId": "001265196519557792"
+  },
+  {
+    "OpportunityId": "006330496282638453",
+    "Name": "Buyout - Reid-Mcknight",
+    "Amount": 102525445.29,
+    "CloseDate": "2024-06-02",
+    "Stage": "Closed Won",
+    "Probability": 100,
+    "AccountId": "001797594421127371"
+  },
+  {
+    "OpportunityId": "006944079265401281",
+    "Name": "Growth Capital - Byrd, Harris and Porter",
+    "Amount": 125800813.51,
+    "CloseDate": "2026-02-12",
+    "Stage": "Due Diligence",
+    "Probability": 40.0,
+    "AccountId": "001629220411702767"
+  },
+  {
+    "OpportunityId": "006438380567410395",
+    "Name": "Platform Investment - Hubbard, Koch and Jackson",
+    "Amount": 113269138.19,
+    "CloseDate": "2025-04-18",
+    "Stage": "Closed Lost",
+    "Probability": 0,
+    "AccountId": "001473036311611360"
+  },
+  {
+    "OpportunityId": "006596339941071716",
+    "Name": "Growth Capital - Davis, Johnson and Camacho",
+    "Amount": 77959922.91,
+    "CloseDate": "2025-10-30",
+    "Stage": "Closed Lost",
+    "Probability": 0,
+    "AccountId": "001682063933828284"
+  },
+  {
+    "OpportunityId": "006863434596068585",
+    "Name": "Secondary Transaction - Garcia, Morales and Wise",
+    "Amount": 66339056.87,
+    "CloseDate": "2026-04-22",
+    "Stage": "Negotiation",
+    "Probability": 82.0,
+    "AccountId": "001802001887838310"
+  },
+  {
+    "OpportunityId": "006574596048409848",
+    "Name": "Platform Investment - Lopez-Lawrence",
+    "Amount": 155284851.47,
+    "CloseDate": "2026-03-12",
+    "Stage": "Qualification",
+    "Probability": 37.7,
+    "AccountId": "001824394011265936"
+  },
+  {
+    "OpportunityId": "006364120532786950",
+    "Name": "Growth Capital - Brown, Dudley and Williams",
+    "Amount": 154284516.02,
+    "CloseDate": "2026-06-19",
+    "Stage": "Due Diligence",
+    "Probability": 57.0,
+    "AccountId": "001473036311611360"
+  },
+  {
+    "OpportunityId": "006957037012093953",
+    "Name": "Platform Investment - Romero Group",
+    "Amount": 10880275.3,
+    "CloseDate": "2026-10-15",
+    "Stage": "Qualification",
+    "Probability": 27.5,
+    "AccountId": "001461884772984943"
+  },
+  {
+    "OpportunityId": "006541068747482565",
+    "Name": "Add-on Acquisition - Hall, Gill and Thomas",
+    "Amount": 118379599.62,
+    "CloseDate": "2024-12-16",
+    "Stage": "Closed Won",
+    "Probability": 100,
+    "AccountId": "001868912630601744"
+  },
+  {
+    "OpportunityId": "006156943402311097",
+    "Name": "Platform Investment - Williams-Carpenter",
+    "Amount": 188891331.46,
+    "CloseDate": "2024-12-02",
+    "Stage": "Closed Lost",
+    "Probability": 0,
+    "AccountId": "001742419611598285"
+  },
+  {
+    "OpportunityId": "006158252865966083",
+    "Name": "Secondary Transaction - Gutierrez PLC",
+    "Amount": 19888511.4,
+    "CloseDate": "2026-10-07",
+    "Stage": "Term Sheet",
+    "Probability": 64.2,
+    "AccountId": "001305536284775653"
+  },
+  {
+    "OpportunityId": "006678168942982719",
+    "Name": "Secondary Transaction - Johnson-Velasquez",
+    "Amount": 191625195.64,
+    "CloseDate": "2025-11-06",
+    "Stage": "Qualification",
+    "Probability": 34.7,
+    "AccountId": "001523373281095412"
+  },
+  {
+    "OpportunityId": "006613699767383162",
+    "Name": "Buyout - Best-Hardy",
+    "Amount": 31604505.11,
+    "CloseDate": "2026-03-03",
+    "Stage": "Term Sheet",
+    "Probability": 62.9,
+    "AccountId": "001968526877006731"
+  },
+  {
+    "OpportunityId": "006714372683629198",
+    "Name": "Platform Investment - Flores, Ryan and Macdonald",
+    "Amount": 197917781.65,
+    "CloseDate": "2025-02-02",
+    "Stage": "Closed Lost",
+    "Probability": 0,
+    "AccountId": "001754934641321306"
+  },
+  {
+    "OpportunityId": "006948106472484376",
+    "Name": "Platform Investment - Williams, Barry and King",
+    "Amount": 176543454.11,
+    "CloseDate": "2025-01-18",
+    "Stage": "Closed Lost",
+    "Probability": 0,
+    "AccountId": "001410601076007526"
+  },
+  {
+    "OpportunityId": "006679248784766650",
+    "Name": "Platform Investment - Cowan Group",
+    "Amount": 170686047.75,
+    "CloseDate": "2024-07-24",
+    "Stage": "Closed Won",
+    "Probability": 100,
+    "AccountId": "001473036311611360"
+  },
+  {
+    "OpportunityId": "006154803516429259",
+    "Name": "Platform Investment - Campbell-Hull",
+    "Amount": 145762238.87,
+    "CloseDate": "2025-05-25",
+    "Stage": "Closed Lost",
+    "Probability": 0,
+    "AccountId": "001460320043827510"
+  },
+  {
+    "OpportunityId": "006247425035154767",
+    "Name": "Buyout - Flynn-Coleman",
+    "Amount": 158987424.09,
+    "CloseDate": "2026-09-03",
+    "Stage": "Qualification",
+    "Probability": 39.2,
+    "AccountId": "001365655552460658"
+  },
+  {
+    "OpportunityId": "006165076514970549",
+    "Name": "Buyout - Adams-Palmer",
+    "Amount": 88454438.24,
+    "CloseDate": "2024-05-15",
+    "Stage": "Closed Won",
+    "Probability": 100,
+    "AccountId": "001822195671862734"
+  },
+  {
+    "OpportunityId": "006196724871597458",
+    "Name": "Secondary Transaction - Jones, Patel and Goodwin",
+    "Amount": 28434234.83,
+    "CloseDate": "2025-03-05",
+    "Stage": "Closed Lost",
+    "Probability": 0,
+    "AccountId": "001569909409766586"
+  },
+  {
+    "OpportunityId": "006341470313435129",
+    "Name": "Add-on Acquisition - Mitchell-Rodriguez",
+    "Amount": 110407382.51,
+    "CloseDate": "2026-06-11",
+    "Stage": "Negotiation",
+    "Probability": 85.6,
+    "AccountId": "001163266288775566"
+  },
+  {
+    "OpportunityId": "006122220844062455",
+    "Name": "Growth Capital - Harris Ltd",
+    "Amount": 109668843.3,
+    "CloseDate": "2025-11-14",
+    "Stage": "Term Sheet",
+    "Probability": 63.5,
+    "AccountId": "001661795091939059"
+  },
+  {
+    "OpportunityId": "006364549579948635",
+    "Name": "Recapitalization - Williams, Vaughn and Bush",
+    "Amount": 22852841.14,
+    "CloseDate": "2026-02-13",
+    "Stage": "Qualification",
+    "Probability": 30.1,
+    "AccountId": "001838400666890205"
+  },
+  {
+    "OpportunityId": "006717317640664767",
+    "Name": "Add-on Acquisition - Vazquez, Clark and Martin",
+    "Amount": 66323578.75,
+    "CloseDate": "2026-09-09",
+    "Stage": "Negotiation",
+    "Probability": 85.4,
+    "AccountId": "001555815928119472"
+  },
+  {
+    "OpportunityId": "006617088115250282",
+    "Name": "Buyout - Murillo, Prince and Bruce",
+    "Amount": 177916633.72,
+    "CloseDate": "2026-10-01",
+    "Stage": "Qualification",
+    "Probability": 30.0,
+    "AccountId": "001396269982314234"
+  },
+  {
+    "OpportunityId": "006357022555283170",
+    "Name": "Secondary Transaction - Terry-Ward",
+    "Amount": 154236702.43,
+    "CloseDate": "2026-04-27",
+    "Stage": "Due Diligence",
+    "Probability": 49.2,
+    "AccountId": "001569909409766586"
+  },
+  {
+    "OpportunityId": "006272216321712785",
+    "Name": "Secondary Transaction - Hicks Inc",
+    "Amount": 102937828.05,
+    "CloseDate": "2026-06-05",
+    "Stage": "Prospecting",
+    "Probability": 12.9,
+    "AccountId": "001743713336005734"
+  },
+  {
+    "OpportunityId": "006859387122937635",
+    "Name": "Growth Capital - Burke, Jones and Edwards",
+    "Amount": 69653497.31,
+    "CloseDate": "2026-08-02",
+    "Stage": "Prospecting",
+    "Probability": 16.8,
+    "AccountId": "001365655552460658"
+  },
+  {
+    "OpportunityId": "006319520016728984",
+    "Name": "Add-on Acquisition - Sanchez and Sons",
+    "Amount": 23996098.79,
+    "CloseDate": "2025-10-04",
+    "Stage": "Closed Lost",
+    "Probability": 0,
+    "AccountId": "001961564615302920"
+  },
+  {
+    "OpportunityId": "006149971899953113",
+    "Name": "Platform Investment - Melton LLC",
+    "Amount": 179187808.98,
+    "CloseDate": "2026-08-17",
+    "Stage": "Term Sheet",
+    "Probability": 62.6,
+    "AccountId": "001701617265275708"
+  },
+  {
+    "OpportunityId": "006405701644243596",
+    "Name": "Add-on Acquisition - Harris, Murray and Collins",
+    "Amount": 189895571.95,
+    "CloseDate": "2026-07-25",
+    "Stage": "Qualification",
+    "Probability": 44.2,
+    "AccountId": "001900884377492111"
+  },
+  {
+    "OpportunityId": "006698942931071775",
+    "Name": "Recapitalization - Villanueva, Ramos and Cline",
+    "Amount": 179963218.79,
+    "CloseDate": "2026-05-26",
+    "Stage": "Qualification",
+    "Probability": 28.3,
+    "AccountId": "001378331786938660"
+  },
+  {
+    "OpportunityId": "006900186539663443",
+    "Name": "Secondary Transaction - Stark Group",
+    "Amount": 132551897.04,
+    "CloseDate": "2026-03-04",
+    "Stage": "Term Sheet",
+    "Probability": 64.1,
+    "AccountId": "001522038100488614"
+  },
+  {
+    "OpportunityId": "006593805216819198",
+    "Name": "Recapitalization - Ramirez-Stout",
+    "Amount": 14188218.25,
+    "CloseDate": "2026-05-11",
+    "Stage": "Qualification",
+    "Probability": 28.4,
+    "AccountId": "001671303160286762"
+  },
+  {
+    "OpportunityId": "006933351193560259",
+    "Name": "Recapitalization - Harmon, Heath and Lawson",
+    "Amount": 182729812.98,
+    "CloseDate": "2026-07-01",
+    "Stage": "Due Diligence",
+    "Probability": 58.8,
+    "AccountId": "001968526877006731"
+  },
+  {
+    "OpportunityId": "006540289631886935",
+    "Name": "Secondary Transaction - Owens and Sons",
+    "Amount": 117080585.58,
+    "CloseDate": "2025-03-25",
+    "Stage": "Closed Lost",
+    "Probability": 0,
+    "AccountId": "001412729909595446"
+  },
+  {
+    "OpportunityId": "006229330906955827",
+    "Name": "Buyout - Dominguez PLC",
+    "Amount": 35664463.76,
+    "CloseDate": "2025-01-04",
+    "Stage": "Closed Lost",
+    "Probability": 0,
+    "AccountId": "001335618416853610"
+  },
+  {
+    "OpportunityId": "006263544012285758",
+    "Name": "Platform Investment - Mills, Larsen and Rodriguez",
+    "Amount": 195308679.28,
+    "CloseDate": "2026-06-17",
+    "Stage": "Qualification",
+    "Probability": 30.8,
+    "AccountId": "001332650463090566"
+  },
+  {
+    "OpportunityId": "006318528139546541",
+    "Name": "Recapitalization - Benton, Richards and Berg",
+    "Amount": 30897659.51,
+    "CloseDate": "2026-06-24",
+    "Stage": "Due Diligence",
+    "Probability": 60.0,
+    "AccountId": "001739132741905107"
+  },
+  {
+    "OpportunityId": "006585331469677227",
+    "Name": "Secondary Transaction - Yang, Haas and Collins",
+    "Amount": 117605940.38,
+    "CloseDate": "2025-05-25",
+    "Stage": "Closed Lost",
+    "Probability": 0,
+    "AccountId": "001623896165540409"
+  },
+  {
+    "OpportunityId": "006589549887561695",
+    "Name": "Secondary Transaction - Johnson-Nguyen",
+    "Amount": 11991259.65,
+    "CloseDate": "2025-02-19",
+    "Stage": "Closed Lost",
+    "Probability": 0,
+    "AccountId": "001326678645776636"
+  },
+  {
+    "OpportunityId": "006100723080023802",
+    "Name": "Recapitalization - Hendricks Group",
+    "Amount": 15919348.45,
+    "CloseDate": "2026-08-29",
+    "Stage": "Prospecting",
+    "Probability": 12.2,
+    "AccountId": "001682063933828284"
+  },
+  {
+    "OpportunityId": "006143977266133212",
+    "Name": "Add-on Acquisition - Bennett-Robinson",
+    "Amount": 97648292.99,
+    "CloseDate": "2026-10-05",
+    "Stage": "Term Sheet",
+    "Probability": 63.6,
+    "AccountId": "001612135812556763"
+  },
+  {
+    "OpportunityId": "006856583534186996",
+    "Name": "Recapitalization - Martinez, Clark and Sullivan",
+    "Amount": 9886296.48,
+    "CloseDate": "2024-11-20",
+    "Stage": "Closed Won",
+    "Probability": 100,
+    "AccountId": "001555815928119472"
+  },
+  {
+    "OpportunityId": "006784423414524197",
+    "Name": "Secondary Transaction - Clayton-Roth",
+    "Amount": 140722688.61,
+    "CloseDate": "2025-10-01",
+    "Stage": "Closed Lost",
+    "Probability": 0,
+    "AccountId": "001253751681878372"
+  },
+  {
+    "OpportunityId": "006793903948022350",
+    "Name": "Recapitalization - Smith-Daugherty",
+    "Amount": 70782240.78,
+    "CloseDate": "2024-09-10",
+    "Stage": "Closed Won",
+    "Probability": 100,
+    "AccountId": "001412729909595446"
+  },
+  {
+    "OpportunityId": "006507323381736616",
+    "Name": "Buyout - Lindsey-Hicks",
+    "Amount": 98916032.03,
+    "CloseDate": "2026-03-12",
+    "Stage": "Due Diligence",
+    "Probability": 55.5,
+    "AccountId": "001224715795709100"
+  },
+  {
+    "OpportunityId": "006777005188191205",
+    "Name": "Buyout - Stevens Ltd",
+    "Amount": 118111427.06,
+    "CloseDate": "2025-03-14",
+    "Stage": "Closed Lost",
+    "Probability": 0,
+    "AccountId": "001687098247332374"
+  },
+  {
+    "OpportunityId": "006772628539465475",
+    "Name": "Growth Capital - Torres-Foley",
+    "Amount": 136953224.8,
+    "CloseDate": "2026-10-30",
+    "Stage": "Prospecting",
+    "Probability": 25.2,
+    "AccountId": "001435751223078609"
+  },
+  {
+    "OpportunityId": "006998376783916913",
+    "Name": "Add-on Acquisition - Combs LLC",
+    "Amount": 77106472.23,
+    "CloseDate": "2026-03-09",
+    "Stage": "Qualification",
+    "Probability": 40.6,
+    "AccountId": "001901937098867886"
+  },
+  {
+    "OpportunityId": "006875441030923783",
+    "Name": "Growth Capital - Gonzalez-Jenkins",
+    "Amount": 9090462.56,
+    "CloseDate": "2026-07-19",
+    "Stage": "Prospecting",
+    "Probability": 21.8,
+    "AccountId": "001412729909595446"
+  },
+  {
+    "OpportunityId": "006492478311553922",
+    "Name": "Platform Investment - Gomez Ltd",
+    "Amount": 157293949.05,
+    "CloseDate": "2025-11-06",
+    "Stage": "Prospecting",
+    "Probability": 27.6,
+    "AccountId": "001236471340680227"
+  },
+  {
+    "OpportunityId": "006855231169792328",
+    "Name": "Secondary Transaction - Jimenez-Hernandez",
+    "Amount": 174466273.47,
+    "CloseDate": "2025-04-12",
+    "Stage": "Closed Lost",
+    "Probability": 0,
+    "AccountId": "001523373281095412"
+  },
+  {
+    "OpportunityId": "006720762939036745",
+    "Name": "Secondary Transaction - Nguyen-Thomas",
+    "Amount": 143048433.78,
+    "CloseDate": "2025-04-27",
+    "Stage": "Closed Won",
+    "Probability": 100,
+    "AccountId": "001792063671917976"
+  },
+  {
+    "OpportunityId": "006952765167315049",
+    "Name": "Recapitalization - Pham-Ward",
+    "Amount": 172471955.4,
+    "CloseDate": "2026-03-30",
+    "Stage": "Qualification",
+    "Probability": 37.2,
+    "AccountId": "001716481059654927"
+  },
+  {
+    "OpportunityId": "006507438562547355",
+    "Name": "Growth Capital - Ortiz-Stewart",
+    "Amount": 140648991.83,
+    "CloseDate": "2025-11-25",
+    "Stage": "Term Sheet",
+    "Probability": 78.0,
+    "AccountId": "001758478488293707"
+  },
+  {
+    "OpportunityId": "006766196473176967",
+    "Name": "Platform Investment - Hammond Inc",
+    "Amount": 87362791.13,
+    "CloseDate": "2026-06-15",
+    "Stage": "Qualification",
+    "Probability": 27.2,
+    "AccountId": "001536957396354277"
+  },
+  {
+    "OpportunityId": "006350833936499647",
+    "Name": "Add-on Acquisition - Acosta and Sons",
+    "Amount": 177796340.66,
+    "CloseDate": "2023-11-16",
+    "Stage": "Closed Won",
+    "Probability": 100,
+    "AccountId": "001201394135321361"
+  },
+  {
+    "OpportunityId": "006561106072102968",
+    "Name": "Add-on Acquisition - Johnson, Powell and Stephens",
+    "Amount": 63556364.89,
+    "CloseDate": "2026-03-23",
+    "Stage": "Negotiation",
+    "Probability": 84.4,
+    "AccountId": "001163266288775566"
+  },
+  {
+    "OpportunityId": "006930234930944122",
+    "Name": "Growth Capital - Henderson PLC",
+    "Amount": 20925062.06,
+    "CloseDate": "2026-07-19",
+    "Stage": "Qualification",
+    "Probability": 32.2,
+    "AccountId": "001514511365224795"
+  },
+  {
+    "OpportunityId": "006236371141427335",
+    "Name": "Platform Investment - Moore, Rodriguez and Blake",
+    "Amount": 31432409.08,
+    "CloseDate": "2026-03-02",
+    "Stage": "Negotiation",
+    "Probability": 82.3,
+    "AccountId": "001411245801660386"
+  },
+  {
+    "OpportunityId": "006541372074878625",
+    "Name": "Recapitalization - Gonzalez and Sons",
+    "Amount": 174378704.6,
+    "CloseDate": "2026-07-26",
+    "Stage": "Term Sheet",
+    "Probability": 61.6,
+    "AccountId": "001364000206559589"
+  },
+  {
+    "OpportunityId": "006346989716787025",
+    "Name": "Buyout - Blackburn-Stewart",
+    "Amount": 134565290.29,
+    "CloseDate": "2025-12-22",
+    "Stage": "Qualification",
+    "Probability": 41.0,
+    "AccountId": "001360926447113222"
+  },
+  {
+    "OpportunityId": "006835174746742292",
+    "Name": "Buyout - Chang LLC",
+    "Amount": 193259840.07,
+    "CloseDate": "2025-11-06",
+    "Stage": "Term Sheet",
+    "Probability": 78.7,
+    "AccountId": "001223641756867866"
+  },
+  {
+    "OpportunityId": "006121571017136613",
+    "Name": "Platform Investment - Lowe, Montgomery and Lopez",
+    "Amount": 86095690.13,
+    "CloseDate": "2025-04-28",
+    "Stage": "Closed Lost",
+    "Probability": 0,
+    "AccountId": "001961564615302920"
+  },
+  {
+    "OpportunityId": "006482970829459671",
+    "Name": "Secondary Transaction - Weaver-Short",
+    "Amount": 141437477.23,
+    "CloseDate": "2026-03-23",
+    "Stage": "Qualification",
+    "Probability": 39.8,
+    "AccountId": "001995769546180143"
+  },
+  {
+    "OpportunityId": "006312028048013024",
+    "Name": "Platform Investment - Moyer Group",
+    "Amount": 69993551.29,
+    "CloseDate": "2026-10-15",
+    "Stage": "Qualification",
+    "Probability": 41.5,
+    "AccountId": "001610410134074357"
+  },
+  {
+    "OpportunityId": "006595786941178473",
+    "Name": "Growth Capital - Rodriguez LLC",
+    "Amount": 23985992.43,
+    "CloseDate": "2026-01-23",
+    "Stage": "Negotiation",
+    "Probability": 80.5,
+    "AccountId": "001754934641321306"
+  },
+  {
+    "OpportunityId": "006193442527500184",
+    "Name": "Growth Capital - Benson-Moss",
+    "Amount": 170603306.25,
+    "CloseDate": "2025-01-22",
+    "Stage": "Closed Lost",
+    "Probability": 0,
+    "AccountId": "001861979841678369"
+  },
+  {
+    "OpportunityId": "006187047014683904",
+    "Name": "Add-on Acquisition - Thomas LLC",
+    "Amount": 157739698.44,
+    "CloseDate": "2026-01-04",
+    "Stage": "Due Diligence",
+    "Probability": 47.5,
+    "AccountId": "001610410134074357"
+  },
+  {
+    "OpportunityId": "006725193173357878",
+    "Name": "Buyout - Allen, Horton and Jones",
+    "Amount": 167215494.59,
+    "CloseDate": "2026-03-03",
+    "Stage": "Term Sheet",
+    "Probability": 76.9,
+    "AccountId": "001164176860701449"
+  },
+  {
+    "OpportunityId": "006885328730229285",
+    "Name": "Platform Investment - Brown-Boyd",
+    "Amount": 48468998.71,
+    "CloseDate": "2026-05-07",
+    "Stage": "Qualification",
+    "Probability": 37.0,
+    "AccountId": "001224715795709100"
+  },
+  {
+    "OpportunityId": "006981943750413207",
+    "Name": "Growth Capital - Williams-Holmes",
+    "Amount": 187307632.32,
+    "CloseDate": "2026-10-03",
+    "Stage": "Negotiation",
+    "Probability": 79.3,
+    "AccountId": "001624502296657512"
+  },
+  {
+    "OpportunityId": "006925780975990810",
+    "Name": "Growth Capital - Colon-Robles",
+    "Amount": 152176125.73,
+    "CloseDate": "2024-12-03",
+    "Stage": "Closed Lost",
+    "Probability": 0,
+    "AccountId": "001961564615302920"
+  },
+  {
+    "OpportunityId": "006929245843526996",
+    "Name": "Recapitalization - Garcia-Malone",
+    "Amount": 159895564.78,
+    "CloseDate": "2026-01-04",
+    "Stage": "Qualification",
+    "Probability": 29.4,
+    "AccountId": "001861979841678369"
+  },
+  {
+    "OpportunityId": "006887806785302498",
+    "Name": "Platform Investment - Love-Holloway",
+    "Amount": 39068596.88,
+    "CloseDate": "2026-06-25",
+    "Stage": "Term Sheet",
+    "Probability": 79.9,
+    "AccountId": "001410601076007526"
+  },
+  {
+    "OpportunityId": "006981393692411804",
+    "Name": "Add-on Acquisition - Johnson, Smith and Hartman",
+    "Amount": 21280726.43,
+    "CloseDate": "2026-07-06",
+    "Stage": "Qualification",
+    "Probability": 39.6,
+    "AccountId": "001265196519557792"
+  },
+  {
+    "OpportunityId": "006805769796326915",
+    "Name": "Add-on Acquisition - Smith and Sons",
+    "Amount": 164219122.16,
+    "CloseDate": "2026-03-30",
+    "Stage": "Negotiation",
+    "Probability": 85.5,
+    "AccountId": "001717012457012389"
+  },
+  {
+    "OpportunityId": "006341590746961534",
+    "Name": "Growth Capital - Phillips, Ruiz and Briggs",
+    "Amount": 100808516.2,
+    "CloseDate": "2024-02-03",
+    "Stage": "Closed Won",
+    "Probability": 100,
+    "AccountId": "001163266288775566"
+  },
+  {
+    "OpportunityId": "006288806944837603",
+    "Name": "Buyout - Henderson Ltd",
+    "Amount": 146716213.25,
+    "CloseDate": "2024-11-07",
+    "Stage": "Closed Lost",
+    "Probability": 0,
+    "AccountId": "001514511365224795"
+  },
+  {
+    "OpportunityId": "006939718807772787",
+    "Name": "Platform Investment - Soto-Green",
+    "Amount": 9589712.21,
+    "CloseDate": "2026-08-01",
+    "Stage": "Term Sheet",
+    "Probability": 78.5,
+    "AccountId": "001625714756373429"
+  },
+  {
+    "OpportunityId": "006262073869775981",
+    "Name": "Buyout - James-Thomas",
+    "Amount": 128822695.22,
+    "CloseDate": "2026-02-07",
+    "Stage": "Term Sheet",
+    "Probability": 62.3,
+    "AccountId": "001389911721832932"
+  },
+  {
+    "OpportunityId": "006151298794307740",
+    "Name": "Buyout - Hines LLC",
+    "Amount": 120902450.47,
+    "CloseDate": "2026-07-26",
+    "Stage": "Due Diligence",
+    "Probability": 53.8,
+    "AccountId": "001460320043827510"
+  },
+  {
+    "OpportunityId": "006769683816283895",
+    "Name": "Add-on Acquisition - Burns-Guerra",
+    "Amount": 66364389.72,
+    "CloseDate": "2025-12-16",
+    "Stage": "Term Sheet",
+    "Probability": 67.6,
+    "AccountId": "001156061303919893"
+  },
+  {
+    "OpportunityId": "006246708260127621",
+    "Name": "Platform Investment - Reese, Allison and Jones",
+    "Amount": 121444844.2,
+    "CloseDate": "2025-12-03",
+    "Stage": "Qualification",
+    "Probability": 29.7,
+    "AccountId": "001754934641321306"
+  },
+  {
+    "OpportunityId": "006158005072902251",
+    "Name": "Buyout - Lawson, Murphy and Villa",
+    "Amount": 86693390.08,
+    "CloseDate": "2026-04-02",
+    "Stage": "Negotiation",
+    "Probability": 88.8,
+    "AccountId": "001612135812556763"
+  },
+  {
+    "OpportunityId": "006554675388349183",
+    "Name": "Recapitalization - Mccarthy-Weeks",
+    "Amount": 89672341.99,
+    "CloseDate": "2026-09-22",
+    "Stage": "Negotiation",
+    "Probability": 72.6,
+    "AccountId": "001728813218970745"
+  },
+  {
+    "OpportunityId": "006596892855694074",
+    "Name": "Platform Investment - West, Farley and Ward",
+    "Amount": 33940240.25,
+    "CloseDate": "2025-03-06",
+    "Stage": "Closed Lost",
+    "Probability": 0,
+    "AccountId": "001454381864145783"
+  },
+  {
+    "OpportunityId": "006527371524332248",
+    "Name": "Recapitalization - Dennis, Wade and Burton",
+    "Amount": 161257748.32,
+    "CloseDate": "2026-10-31",
+    "Stage": "Due Diligence",
+    "Probability": 54.0,
+    "AccountId": "001544973380246657"
+  },
+  {
+    "OpportunityId": "006505880472368700",
+    "Name": "Buyout - Reid-Montoya",
+    "Amount": 32507187.52,
+    "CloseDate": "2026-08-12",
+    "Stage": "Prospecting",
+    "Probability": 13.5,
+    "AccountId": "001149689249860624"
+  },
+  {
+    "OpportunityId": "006317379411622232",
+    "Name": "Secondary Transaction - Rangel-Parker",
+    "Amount": 115614556.41,
+    "CloseDate": "2025-02-12",
+    "Stage": "Closed Lost",
+    "Probability": 0,
+    "AccountId": "001901937098867886"
+  },
+  {
+    "OpportunityId": "006997844837423145",
+    "Name": "Platform Investment - Sanchez, Arnold and Smith",
+    "Amount": 26261611.64,
+    "CloseDate": "2026-02-26",
+    "Stage": "Due Diligence",
+    "Probability": 51.3,
+    "AccountId": "001332650463090566"
+  },
+  {
+    "OpportunityId": "006112885894499072",
+    "Name": "Buyout - Patterson Ltd",
+    "Amount": 53595816.55,
+    "CloseDate": "2026-10-31",
+    "Stage": "Qualification",
+    "Probability": 32.4,
+    "AccountId": "001513971703859849"
+  },
+  {
+    "OpportunityId": "006512293251196470",
+    "Name": "Growth Capital - Davis, Nguyen and Roman",
+    "Amount": 133651388.18,
+    "CloseDate": "2026-03-07",
+    "Stage": "Qualification",
+    "Probability": 33.1,
+    "AccountId": "001364000206559589"
+  },
+  {
+    "OpportunityId": "006343707726095846",
+    "Name": "Recapitalization - Andrade PLC",
+    "Amount": 43968842.39,
+    "CloseDate": "2026-06-14",
+    "Stage": "Term Sheet",
+    "Probability": 65.3,
+    "AccountId": "001802001887838310"
+  },
+  {
+    "OpportunityId": "006468193349441597",
+    "Name": "Buyout - Keller, Becker and Hood",
+    "Amount": 117911600.93,
+    "CloseDate": "2026-05-20",
+    "Stage": "Qualification",
+    "Probability": 40.6,
+    "AccountId": "001838400666890205"
+  },
+  {
+    "OpportunityId": "006188774173083668",
+    "Name": "Recapitalization - Morton, Hartman and Diaz",
+    "Amount": 32952028.41,
+    "CloseDate": "2026-09-22",
+    "Stage": "Prospecting",
+    "Probability": 24.1,
+    "AccountId": "001223641756867866"
+  },
+  {
+    "OpportunityId": "006490075288042430",
+    "Name": "Growth Capital - Hamilton-Gonzalez",
+    "Amount": 33930125.19,
+    "CloseDate": "2025-12-25",
+    "Stage": "Due Diligence",
+    "Probability": 58.0,
+    "AccountId": "001326678645776636"
+  },
+  {
+    "OpportunityId": "006974774805499041",
+    "Name": "Secondary Transaction - Cox LLC",
+    "Amount": 124471333.79,
+    "CloseDate": "2024-12-20",
+    "Stage": "Closed Lost",
+    "Probability": 0,
+    "AccountId": "001347354983810326"
+  },
+  {
+    "OpportunityId": "006574133813239113",
+    "Name": "Platform Investment - Haynes Group",
+    "Amount": 141050459.74,
+    "CloseDate": "2026-06-17",
+    "Stage": "Term Sheet",
+    "Probability": 66.3,
+    "AccountId": "001473036311611360"
+  },
+  {
+    "OpportunityId": "006354152673795148",
+    "Name": "Buyout - Hernandez, Trevino and Juarez",
+    "Amount": 111614397.69,
+    "CloseDate": "2025-11-16",
+    "Stage": "Prospecting",
+    "Probability": 22.2,
+    "AccountId": "001612135812556763"
+  },
+  {
+    "OpportunityId": "006246749805463988",
+    "Name": "Add-on Acquisition - Fischer Group",
+    "Amount": 189871273.6,
+    "CloseDate": "2025-08-30",
+    "Stage": "Closed Won",
+    "Probability": 100,
+    "AccountId": "001950905524690007"
+  },
+  {
+    "OpportunityId": "006850273012220420",
+    "Name": "Secondary Transaction - Jones-Kennedy",
+    "Amount": 116560352.89,
+    "CloseDate": "2026-08-16",
+    "Stage": "Qualification",
+    "Probability": 40.8,
+    "AccountId": "001701617265275708"
+  },
+  {
+    "OpportunityId": "006982376644396897",
+    "Name": "Add-on Acquisition - Jones and Sons",
+    "Amount": 133825172.84,
+    "CloseDate": "2025-08-27",
+    "Stage": "Closed Lost",
+    "Probability": 0,
+    "AccountId": "001364000206559589"
+  },
+  {
+    "OpportunityId": "006765228039705403",
+    "Name": "Add-on Acquisition - Phillips, Carlson and Cuevas",
+    "Amount": 123075437.25,
+    "CloseDate": "2026-09-09",
+    "Stage": "Prospecting",
+    "Probability": 20.2,
+    "AccountId": "001224715795709100"
+  },
+  {
+    "OpportunityId": "006813154222731783",
+    "Name": "Growth Capital - Bryant and Sons",
+    "Amount": 175953256.44,
+    "CloseDate": "2025-05-16",
+    "Stage": "Closed Lost",
+    "Probability": 0,
+    "AccountId": "001411245801660386"
+  },
+  {
+    "OpportunityId": "006811906640454486",
+    "Name": "Buyout - Martinez LLC",
+    "Amount": 147732217.27,
+    "CloseDate": "2024-02-25",
+    "Stage": "Closed Won",
+    "Probability": 100,
+    "AccountId": "001251186378901855"
+  },
+  {
+    "OpportunityId": "006515151498176506",
+    "Name": "Buyout - Pruitt Ltd",
+    "Amount": 86665766.37,
+    "CloseDate": "2025-11-13",
+    "Stage": "Negotiation",
+    "Probability": 78.3,
+    "AccountId": "001897314398151807"
+  },
+  {
+    "OpportunityId": "006111160263792676",
+    "Name": "Secondary Transaction - Johnson Ltd",
+    "Amount": 157692459.21,
+    "CloseDate": "2026-01-16",
+    "Stage": "Due Diligence",
+    "Probability": 56.0,
+    "AccountId": "001536957396354277"
+  },
+  {
+    "OpportunityId": "006803826441230499",
+    "Name": "Secondary Transaction - Charles, Matthews and Velasquez",
+    "Amount": 33004737.03,
+    "CloseDate": "2025-02-28",
+    "Stage": "Closed Lost",
+    "Probability": 0,
+    "AccountId": "001241514366741970"
+  },
+  {
+    "OpportunityId": "006176544548327253",
+    "Name": "Add-on Acquisition - Smith and Sons",
+    "Amount": 116272349.06,
+    "CloseDate": "2024-12-01",
+    "Stage": "Closed Lost",
+    "Probability": 0,
+    "AccountId": "001335618416853610"
+  },
+  {
+    "OpportunityId": "006182534066790801",
+    "Name": "Buyout - Martinez-Brady",
+    "Amount": 103158101.44,
+    "CloseDate": "2026-05-24",
+    "Stage": "Due Diligence",
+    "Probability": 50.3,
+    "AccountId": "001335618416853610"
+  },
+  {
+    "OpportunityId": "006309187844154632",
+    "Name": "Platform Investment - Carter, Doyle and Ellis",
+    "Amount": 172847161.61,
+    "CloseDate": "2024-11-19",
+    "Stage": "Closed Lost",
+    "Probability": 0,
+    "AccountId": "001824394011265936"
+  },
+  {
+    "OpportunityId": "006296518054552786",
+    "Name": "Recapitalization - Martinez-Saunders",
+    "Amount": 63948694.51,
+    "CloseDate": "2026-04-09",
+    "Stage": "Qualification",
+    "Probability": 44.1,
+    "AccountId": "001290051447392568"
+  },
+  {
+    "OpportunityId": "006331065196258804",
+    "Name": "Recapitalization - Hogan-Mcdonald",
+    "Amount": 155924949.95,
+    "CloseDate": "2026-08-10",
+    "Stage": "Negotiation",
+    "Probability": 81.8,
+    "AccountId": "001758478488293707"
+  },
+  {
+    "OpportunityId": "006518902514923683",
+    "Name": "Growth Capital - Villarreal-Huffman",
+    "Amount": 57696587.94,
+    "CloseDate": "2026-09-24",
+    "Stage": "Qualification",
+    "Probability": 40.9,
+    "AccountId": "001681810146647467"
+  },
+  {
+    "OpportunityId": "006412879990301723",
+    "Name": "Add-on Acquisition - Lee Inc",
+    "Amount": 55641276.43,
+    "CloseDate": "2024-10-31",
+    "Stage": "Closed Won",
+    "Probability": 100,
+    "AccountId": "001249974909795343"
+  },
+  {
+    "OpportunityId": "006147570959844222",
+    "Name": "Add-on Acquisition - Parks-Morris",
+    "Amount": 87663546.0,
+    "CloseDate": "2026-06-21",
+    "Stage": "Prospecting",
+    "Probability": 23.4,
+    "AccountId": "001702937850338056"
+  },
+  {
+    "OpportunityId": "006690344424846448",
+    "Name": "Add-on Acquisition - Barry, Dixon and Sweeney",
+    "Amount": 88717163.51,
+    "CloseDate": "2026-06-16",
+    "Stage": "Due Diligence",
+    "Probability": 57.9,
+    "AccountId": "001901937098867886"
+  },
+  {
+    "OpportunityId": "006874613717012859",
+    "Name": "Platform Investment - Roberts, Bailey and Baird",
+    "Amount": 116160849.88,
+    "CloseDate": "2026-09-22",
+    "Stage": "Term Sheet",
+    "Probability": 68.5,
+    "AccountId": "001968526877006731"
+  },
+  {
+    "OpportunityId": "006691598387564762",
+    "Name": "Growth Capital - Phillips, Cole and White",
+    "Amount": 78278946.07,
+    "CloseDate": "2026-03-07",
+    "Stage": "Term Sheet",
+    "Probability": 75.3,
+    "AccountId": "001838400666890205"
+  },
+  {
+    "OpportunityId": "006876210999217065",
+    "Name": "Buyout - Fritz-Wells",
+    "Amount": 82405848.85,
+    "CloseDate": "2024-09-29",
+    "Stage": "Closed Won",
+    "Probability": 100,
+    "AccountId": "001569909409766586"
+  },
+  {
+    "OpportunityId": "006127805895071175",
+    "Name": "Platform Investment - Acosta, Miller and Stevens",
+    "Amount": 159741453.96,
+    "CloseDate": "2024-09-07",
+    "Stage": "Closed Won",
+    "Probability": 100,
+    "AccountId": "001610410134074357"
+  },
+  {
+    "OpportunityId": "006433399268096896",
+    "Name": "Platform Investment - Williams, Cooper and Cain",
+    "Amount": 195867528.63,
+    "CloseDate": "2023-11-29",
+    "Stage": "Closed Won",
+    "Probability": 100,
+    "AccountId": "001792063671917976"
+  },
+  {
+    "OpportunityId": "006341349424901642",
+    "Name": "Platform Investment - Lewis, Johnson and Shepard",
+    "Amount": 160334455.04,
+    "CloseDate": "2026-10-17",
+    "Stage": "Term Sheet",
+    "Probability": 79.6,
+    "AccountId": "001585333595801934"
+  },
+  {
+    "OpportunityId": "006313568027797588",
+    "Name": "Secondary Transaction - Smith, Torres and Jones",
+    "Amount": 106658712.96,
+    "CloseDate": "2026-09-30",
+    "Stage": "Due Diligence",
+    "Probability": 42.9,
+    "AccountId": "001864736650893311"
+  },
+  {
+    "OpportunityId": "006856894029658701",
+    "Name": "Buyout - Hardy, Owen and White",
+    "Amount": 23653455.99,
+    "CloseDate": "2025-12-29",
+    "Stage": "Term Sheet",
+    "Probability": 68.6,
+    "AccountId": "001671303160286762"
+  },
+  {
+    "OpportunityId": "006552533606927608",
+    "Name": "Growth Capital - Fernandez LLC",
+    "Amount": 70712405.09,
+    "CloseDate": "2026-10-01",
+    "Stage": "Negotiation",
+    "Probability": 83.4,
+    "AccountId": "001728813218970745"
+  },
+  {
+    "OpportunityId": "006332947265787163",
+    "Name": "Secondary Transaction - Melendez, White and Bright",
+    "Amount": 31066309.08,
+    "CloseDate": "2026-02-28",
+    "Stage": "Due Diligence",
+    "Probability": 48.0,
+    "AccountId": "001571868339449946"
+  },
+  {
+    "OpportunityId": "006525890478814682",
+    "Name": "Growth Capital - Wise, Christian and Smith",
+    "Amount": 163065609.43,
+    "CloseDate": "2025-06-21",
+    "Stage": "Closed Lost",
+    "Probability": 0,
+    "AccountId": "001178654903562717"
+  },
+  {
+    "OpportunityId": "006634207164269562",
+    "Name": "Platform Investment - Mendoza-Stewart",
+    "Amount": 34012971.23,
+    "CloseDate": "2026-05-30",
+    "Stage": "Negotiation",
+    "Probability": 78.3,
+    "AccountId": "001824394011265936"
+  },
+  {
+    "OpportunityId": "006234951196216262",
+    "Name": "Platform Investment - Wright, Peters and Bryant",
+    "Amount": 129108859.72,
+    "CloseDate": "2024-05-25",
+    "Stage": "Closed Won",
+    "Probability": 100,
+    "AccountId": "001610410134074357"
+  },
+  {
+    "OpportunityId": "006896678557113502",
+    "Name": "Growth Capital - Wilson and Sons",
+    "Amount": 165084547.77,
+    "CloseDate": "2026-05-11",
+    "Stage": "Negotiation",
+    "Probability": 71.0,
+    "AccountId": "001156061303919893"
+  },
+  {
+    "OpportunityId": "006717567254675701",
+    "Name": "Platform Investment - Schmidt, Barry and Kelley",
+    "Amount": 65419070.71,
+    "CloseDate": "2025-05-21",
+    "Stage": "Closed Won",
+    "Probability": 100,
+    "AccountId": "001523373281095412"
+  },
+  {
+    "OpportunityId": "006815921692658786",
+    "Name": "Platform Investment - Owens, Shannon and May",
+    "Amount": 144819202.37,
+    "CloseDate": "2025-01-26",
+    "Stage": "Closed Lost",
+    "Probability": 0,
+    "AccountId": "001830125797611253"
+  },
+  {
+    "OpportunityId": "006224862944164706",
+    "Name": "Growth Capital - Carlson, Brewer and Thompson",
+    "Amount": 125705508.77,
+    "CloseDate": "2026-08-28",
+    "Stage": "Term Sheet",
+    "Probability": 61.6,
+    "AccountId": "001682063933828284"
+  },
+  {
+    "OpportunityId": "006292801717051146",
+    "Name": "Growth Capital - Ashley, Aguirre and Donaldson",
+    "Amount": 39897976.43,
+    "CloseDate": "2026-05-21",
+    "Stage": "Term Sheet",
+    "Probability": 77.4,
+    "AccountId": "001681810146647467"
+  },
+  {
+    "OpportunityId": "006330793192306098",
+    "Name": "Add-on Acquisition - Brown, Moore and Williams",
+    "Amount": 184764481.39,
+    "CloseDate": "2026-05-21",
+    "Stage": "Qualification",
+    "Probability": 39.6,
+    "AccountId": "001995769546180143"
+  }
+]
